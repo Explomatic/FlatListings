@@ -1,0 +1,447 @@
+<td><input checked="checked" id="ctl00_placeholdersidebar_0_chk_residenceType_Lejebolig" name="ctl00$placeholdersidebar_0$chk_residenceType_Lejebolig" type="checkbox"/><label for="ctl00_placeholdersidebar_0_chk_residenceType_Lejebolig">Lejebolig</label></td>
+<td><input id="ctl00_placeholdersidebar_0_chk_residenceType_LejeboligUngdomsbolig" name="ctl00$placeholdersidebar_0$chk_residenceType_LejeboligUngdomsbolig" type="checkbox"/><label for="ctl00_placeholdersidebar_0_chk_residenceType_LejeboligUngdomsbolig">Ungdomsbolig</label></td>
+<td><span class="enterEvent"><input checked="checked" id="ctl00_placeholdersidebar_0_chk_UnLimitedPeriod" name="ctl00$placeholdersidebar_0$chk_UnLimitedPeriod" type="checkbox"/><label for="ctl00_placeholdersidebar_0_chk_UnLimitedPeriod">Ubegrænset</label></span></td>
+<td><span class="enterEvent"><input id="ctl00_placeholdersidebar_0_chk_TimeLimited" name="ctl00$placeholdersidebar_0$chk_TimeLimited" type="checkbox"/><label for="ctl00_placeholdersidebar_0_chk_TimeLimited">Tidsbegrænset</label></span></td>
+<td rowspan="2">
+<img src="../../gfx/boligagent2.ashx.gif" style="vertical-align: bottom;"/>
+</td>
+<td style="vertical-align:bottom; padding-left: 10px;">
+
+                    Boligagentens navn:
+
+                </td>
+<td style="vertical-align:middle; padding-left: 10px;">
+<input class="input200" id="ctl00_placeholdercontent_0_residenceAgent_tbxResidenceAgentName" maxlength="19" name="ctl00$placeholdercontent_0$residenceAgent$tbxResidenceAgentName" type="text" value="Kbh lejligheder"/>
+</td>
+<td style="vertical-align:middle; padding-left: 10px;">
+<div class="ButtonSubmit"><a href="#" id="ctl00_placeholdercontent_0_residenceAgent_btnSaveShadow">Gem</a></div>
+</td>
+<td id="deleteResidenceAgentTD" style="vertical-align: middle;">
+<div class="ButtonNormal"><a href="#" id="ctl00_placeholdercontent_0_residenceAgent_btnDeleteShadow">Slet</a></div>
+</td>
+<td style="vertical-align:middle; padding-left: 2px;">
+<div class="ButtonNormal"><a href="javascript:cancelResidenceAgentDialog();" id="lnkCancel" style="display: inline-block;">Annuller</a></div>
+</td>
+<td class="gridLabelLeftTop">
+<div><span id="ctl00_placeholdercontent_0_FbnTable1_lab_ResidencesFoundTop">37 Resultater</span></div>
+</td>
+<td width="90%">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><img alt="" src="/gfx/kontrolbjaelke-ikon-pil-venstre-d.gif" style="border-width:0px;"/> </td><td><span>1</span></td><td><img alt="" src="/gfx/kontrolbjaelke-ikon-pil-hoejre-d.gif" style="border-width:0px;"/> </td>
+</tr>
+</table>
+</td>
+<td><img alt="" src="/gfx/kontrolbjaelke-ikon-pil-venstre-d.gif" style="border-width:0px;"/> </td>
+<td><span>1</span></td>
+<td><img alt="" src="/gfx/kontrolbjaelke-ikon-pil-hoejre-d.gif" style="border-width:0px;"/> </td>
+<td class="gridLabelRightTop">
+<div><a href="/ledigeboliger/liste.aspx?sa=83328&amp;where=1000-2400,%202800,%202820,%202840,%202900,%202920&amp;m2min=70&amp;rentmax=15000&amp;roomsmin=2&amp;showrented=1&amp;showyouth=0&amp;showOpenDay=0&amp;showlimitedperiod=0&amp;showunlimitedperiod=1&amp;page=1&amp;pagesize=10" id="ctl00_placeholdercontent_0_FbnTable1_hrefShowResultsPerPage"><span id="ctl00_placeholdercontent_0_FbnTable1_lbt_ShowResultsPerPageTop">Vis 10 resultater pr. side</span></a></div>
+</td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27087&amp;s=2"><img src="/FBNImages/ad5608d2-50fa-427d-a513-d06741daa866_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=27087&amp;s=2" style="color:black;" title="Tøjhus Have"><b>Myggenæsgade  7, st. lejl. 3</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">4</td>
+<td style="text-align:center;">132</td>
+<td style="text-align:right;">14.092,31 kr.<br/>840,00 kr.</td>
+<td style="text-align:right;">01-08-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pædagogernes Pensionskasse" src="/FBNImages/3ca5e362-fac3-4171-adc1-682b74e9155e.gif" title="Pædagogernes Pensionskasse"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27072&amp;s=2"><img src="/FBNImages/7caefb12-a499-43f1-8b38-0f88a740c251_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=27072&amp;s=2" style="color:black;" title="Provianthuset / Sandkaj"><b>Göteborg Plads  15, 4. th.</b><br/>2150 Nordhavn</a></td>
+
+
+<td style="text-align:center;">2</td>
+<td style="text-align:center;">70</td>
+<td style="text-align:right;">11.916,67 kr.<br/>800,00 kr.</td>
+<td style="text-align:right;">01-09-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pensamlogo" src="/FBNImages/81cf9311-8d18-42bd-912f-5e56ba705b45.gif" title="Pensamlogo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27064&amp;s=2"><img src="/FBNImages/o_1ariqhm3216dp1ktt18p1jhl1l0se_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=27064&amp;s=2" style="color:black;" title="Marmorbyen etape 2 Vest"><b>Marmorvej   7B, 3. th.</b><br/>2100 København Ø</a></td>
+
+
+<td style="text-align:center;">2</td>
+<td style="text-align:center;">93</td>
+<td style="text-align:right;">12.865,00 kr.<br/>1.050,00 kr.</td>
+<td style="text-align:right;">15-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pensam" src="/FBNImages/7e49fce7-f04f-424f-89e7-dc132f3d7355.gif" title="Pensam"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27035&amp;s=2"><img src="/FBNImages/7caefb12-a499-43f1-8b38-0f88a740c251_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=27035&amp;s=2" style="color:black;" title="Provianthuset / Sandkaj"><b>Göteborg Plads  11, 3. th.</b><br/>2150 Nordhavn</a></td>
+
+
+<td style="text-align:center;">2</td>
+<td style="text-align:center;">70</td>
+<td style="text-align:right;">11.900,00 kr.<br/>800,00 kr.</td>
+<td style="text-align:right;">01-09-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pensamlogo" src="/FBNImages/81cf9311-8d18-42bd-912f-5e56ba705b45.gif" title="Pensamlogo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27034&amp;s=2"><img src="/FBNImages/7caefb12-a499-43f1-8b38-0f88a740c251_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=27034&amp;s=2" style="color:black;" title="Provianthuset / Sandkaj"><b>Antwerpengade  6, st.</b><br/>2150 Nordhavn</a></td>
+
+
+<td style="text-align:center;">2</td>
+<td style="text-align:center;">89</td>
+<td style="text-align:right;">11.792,50 kr.<br/>1.000,00 kr.</td>
+<td style="text-align:right;">01-09-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pensamlogo" src="/FBNImages/81cf9311-8d18-42bd-912f-5e56ba705b45.gif" title="Pensamlogo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27032&amp;s=2"><img src="/FBNImages/d0a6b197-fc53-489f-87f4-56cac5fa8419_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=27032&amp;s=2" style="color:black;" title="Marmorbyen etape 1 Øst"><b>Marmorvej  41, st. th.</b><br/>2100 København Ø</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">95</td>
+<td style="text-align:right;">14.636,20 kr.<br/>1.050,00 kr.</td>
+<td style="text-align:right;">01-08-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pensam" src="/FBNImages/7e49fce7-f04f-424f-89e7-dc132f3d7355.gif" title="Pensam"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26999&amp;s=2"><img src="/FBNImages/f1dfe27a-02e6-4161-8d92-931e75f4a61e_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=26999&amp;s=2" style="color:black;" title="Margretheholmen"><b>Margretheholmsvej  40, 1. tv</b><br/>1432 København K</a></td>
+
+
+<td style="text-align:center;">4</td>
+<td style="text-align:center;">92</td>
+<td style="text-align:right;">12.429,94 kr.<br/>960,00 kr.</td>
+<td style="text-align:right;">01-09-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="PKA_Logo_2014" src="/FBNImages/23faf18d-8f50-4b55-97e1-060dac0f8372.png" title="PKA_Logo_2014"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26998&amp;s=2"><img src="/FBNImages/f1dfe27a-02e6-4161-8d92-931e75f4a61e_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=26998&amp;s=2" style="color:black;" title="Margretheholmen"><b>Margretheholmsvej  54, 7. tv</b><br/>1432 København K</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">88</td>
+<td style="text-align:right;">14.154,74 kr.<br/>920,00 kr.</td>
+<td style="text-align:right;">01-08-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="PKA_Logo_2014" src="/FBNImages/23faf18d-8f50-4b55-97e1-060dac0f8372.png" title="PKA_Logo_2014"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26960&amp;s=2"><img src="/FBNImages/o_1biio16ne15dnjkh1j9hp61vu5a_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=26960&amp;s=2" style="color:black;" title="H.C. Andersens Boulevard 41, 2. th."><b>H.C. Andersens Boulevard  41, 2. th</b><br/>1553 København V</a></td>
+
+
+<td style="text-align:center;">2</td>
+<td style="text-align:center;">125</td>
+<td style="text-align:right;">14.526,68 kr.<br/>2.100,00 kr.</td>
+<td style="text-align:right;">01-09-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;" title="Advokatpartnerselskabet Jordan|Løgstrup">Advokatpartne...</td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26879&amp;s=2"><img src="/FBNImages/50d601f6-de80-4dc5-9d07-95c0e1ca5b57_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=26879&amp;s=2" style="color:black;" title="Amager Strandpark Ask"><b>Krimsvej  11F, 4. mf.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">105</td>
+<td style="text-align:right;">14.903,50 kr.<br/>1.200,00 kr.</td>
+<td style="text-align:right;">01-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Lærernes Pension" src="/FBNImages/488b7445-35fe-4400-a6b5-b06619eb71cb.png" title="Lærernes Pension"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26877&amp;s=2"><img src="/FBNImages/60461556-5cdc-4426-a5eb-90056bdd6bd3_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=26877&amp;s=2" style="color:black;" title="Amager Strandpark Ask"><b>Krimsvej  11F, 8. th.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">101</td>
+<td style="text-align:right;">14.478,50 kr.<br/>1.100,00 kr.</td>
+<td style="text-align:right;">01-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Lærernes Pension" src="/FBNImages/488b7445-35fe-4400-a6b5-b06619eb71cb.png" title="Lærernes Pension"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26876&amp;s=2"><img src="/FBNImages/611aa6d9-34ce-47d7-a150-3253d99cb389_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=26876&amp;s=2" style="color:black;" title="Amager Strandpark Ask"><b>Krimsvej  11H, 2. tv.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">100</td>
+<td style="text-align:right;">14.628,50 kr.<br/>850,00 kr.</td>
+<td style="text-align:right;">01-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Lærernes Pension" src="/FBNImages/488b7445-35fe-4400-a6b5-b06619eb71cb.png" title="Lærernes Pension"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26873&amp;s=2"><img src="/FBNImages/e54134cf-b35b-423e-814a-9f607ad3a8e8_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=26873&amp;s=2" style="color:black;" title="Amager Strandpark Ask"><b>Krimsvej  11G, 1. th.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">107</td>
+<td style="text-align:right;">14.478,50 kr.<br/>1.200,00 kr.</td>
+<td style="text-align:right;">01-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Lærernes Pension" src="/FBNImages/488b7445-35fe-4400-a6b5-b06619eb71cb.png" title="Lærernes Pension"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26857&amp;s=2"><img src="/FBNImages/e9b6c35a-c742-4c13-b292-e12d5fad9f5b_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=26857&amp;s=2" style="color:black;" title="Bassinhusene"><b>Poul Hartlings Gade  4, 5. th</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">94</td>
+<td style="text-align:right;">14.945,83 kr.<br/>1.380,00 kr.</td>
+<td style="text-align:right;">01-08-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Sampension" src="/FBNImages/08cd73a5-d4f6-465c-9804-76f8d3ab5484.png" title="Sampension"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26803&amp;s=2"><img src="/FBNImages/6370364c-5b9f-4aa6-b26c-0a1e4c5b22d3_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=26803&amp;s=2" style="color:black;" title="Bassinhusene"><b>Axel Heides Gade  12, 1. th</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">2</td>
+<td style="text-align:center;">90</td>
+<td style="text-align:right;">13.125,00 kr.<br/>900,00 kr.</td>
+<td style="text-align:right;">15-08-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Sampension" src="/FBNImages/08cd73a5-d4f6-465c-9804-76f8d3ab5484.png" title="Sampension"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26791&amp;s=2"><img src="/FBNImages/859c471e-3c34-43f5-80b7-d62c8e64d3a2_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=26791&amp;s=2" style="color:black;" title="Schades Have"><b>Amagerfælledvej  114, 3. TV</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">97</td>
+<td style="text-align:right;">13.471,33 kr.<br/>1.100,00 kr.</td>
+<td style="text-align:right;">01-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="AP Pension" src="/FBNImages/48b55103-a403-44e3-8021-8336beeb8f4f.gif" title="AP Pension"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26768&amp;s=2"><img src="/FBNImages/e9b6c35a-c742-4c13-b292-e12d5fad9f5b_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=26768&amp;s=2" style="color:black;" title="Bassinhusene"><b>Axel Heides Gade  12, 5. th</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">90</td>
+<td style="text-align:right;">14.425,96 kr.<br/>1.010,00 kr.</td>
+<td style="text-align:right;">15-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Sampension" src="/FBNImages/08cd73a5-d4f6-465c-9804-76f8d3ab5484.png" title="Sampension"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25252&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=25252&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2B, 4. TH.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">96</td>
+<td style="text-align:right;">14.000,00 kr.<br/>800,00 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25251&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=25251&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2B, 3. TH.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">96</td>
+<td style="text-align:right;">13.800,00 kr.<br/>460,00 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25025&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=25025&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2C, 5. TV.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">98</td>
+<td style="text-align:right;">14.291,67 kr.<br/>1.010,00 kr.</td>
+<td style="text-align:right;">01-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25024&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=25024&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2D, 4. TV.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">87</td>
+<td style="text-align:right;">12.687,50 kr.<br/>410,00 kr.</td>
+<td style="text-align:right;">15-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25023&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=25023&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2A, 2. TH.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">98</td>
+<td style="text-align:right;">13.965,00 kr.<br/>730,00 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25022&amp;s=2"><img src="/FBNImages/2adc702a-c820-456e-a078-d9316490d86a_90x60.JPG"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=25022&amp;s=2" style="color:black;" title="Ørestad - Horisonten"><b>C.F. Møllers Allé  22, 5. TV</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">98</td>
+<td style="text-align:right;">14.291,67 kr.<br/>910,00 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24847&amp;s=2"><img src="/FBNImages/8d215662-3510-4db7-81f0-de8b8a126416_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=24847&amp;s=2" style="color:black;" title="Hekla Husene"><b>Poul Hartlings Gade  9, 2. TH.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">95</td>
+<td style="text-align:right;">14.706,59 kr.<br/>1.230,00 kr.</td>
+<td style="text-align:right;">01-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Lærernes Pension" src="/FBNImages/488b7445-35fe-4400-a6b5-b06619eb71cb.png" title="Lærernes Pension"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24827&amp;s=2"><img src="/FBNImages/ImageMissing_90x60.gif"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=24827&amp;s=2" style="color:black;" title="H.C.Andersens Boulevard 41-43"><b>H.C. Andersens Boulevard 41, 3. th</b><br/>1553 København V</a></td>
+
+
+<td style="text-align:center;">2</td>
+<td style="text-align:center;">125</td>
+<td style="text-align:right;">14.000,00 kr.<br/>2.000,00 kr.</td>
+<td style="text-align:right;">01-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;" title="Advokatpartnerselskabet Jordan|Løgstrup">Advokatpartne...</td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24696&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=24696&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2D, 5. TH.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">96</td>
+<td style="text-align:right;">14.000,00 kr.<br/>800,00 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24672&amp;s=2"><img src="/FBNImages/o_1ba9oq3k5q4c14mu1k2o1ebm1psqa_90x60.JPG"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=24672&amp;s=2" style="color:black;" title="H.C. Andersens Boulevard 47"><b>H.C. Andersens Boulevard 47, 5. th</b><br/>1553 København V</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">160</td>
+<td style="text-align:right;">15.000,00 kr.<br/>1.602,35 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;" title="Advokatpartnerselskabet Jordan|Løgstrup">Advokatpartne...</td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24671&amp;s=2"><img src="/FBNImages/o_1bf6h3hbpdt117n7dh61u88qvi_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=24671&amp;s=2" style="color:black;" title="H.C. Andersens Boulevard 47"><b>H.C. Andersens Boulevard 47, 5. mf</b><br/>1553 København V</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">141</td>
+<td style="text-align:right;">13.500,00 kr.<br/>1.252,35 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;" title="Advokatpartnerselskabet Jordan|Løgstrup">Advokatpartne...</td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24588&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=24588&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2B, 1. TV.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">100</td>
+<td style="text-align:right;">13.958,33 kr.<br/>790,00 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24587&amp;s=2"><img src="/FBNImages/2adc702a-c820-456e-a078-d9316490d86a_90x60.JPG"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=24587&amp;s=2" style="color:black;" title="Ørestad - Horisonten"><b>C.F. Møllers Allé  22, st. TH</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">104</td>
+<td style="text-align:right;">14.733,33 kr.<br/>998,00 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24363&amp;s=2"><img src="/FBNImages/22e83949-2cc9-476a-9b40-ad340867592b_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=24363&amp;s=2" style="color:black;" title="Amager Strandpark Ask"><b>Krimsvej  11B, st. th.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">109</td>
+<td style="text-align:right;">14.228,50 kr.<br/>1.200,00 kr.</td>
+<td style="text-align:right;">01-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Lærernes Pension" src="/FBNImages/488b7445-35fe-4400-a6b5-b06619eb71cb.png" title="Lærernes Pension"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24359&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=24359&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2A, 6. TH.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">96</td>
+<td style="text-align:right;">14.240,00 kr.<br/>300,00 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=23884&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=23884&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  4F, 2. TV.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">97</td>
+<td style="text-align:right;">14.065,00 kr.<br/>1.010,00 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=23875&amp;s=2"><img src="/FBNImages/o_1b7pp66gf1a1b1ratnoq1ucvhblr_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=23875&amp;s=2" style="color:black;" title="Brygge Blomsten"><b>Artillerivej  160, 12. 1</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">100</td>
+<td style="text-align:right;">14.622,60 kr.<br/>1.085,00 kr.</td>
+<td style="text-align:right;">01-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="PKA_Logo_2014" src="/FBNImages/23faf18d-8f50-4b55-97e1-060dac0f8372.png" title="PKA_Logo_2014"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=23710&amp;s=2"><img src="/FBNImages/o_1b7ppp95pgvciqi1af5drscoro_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=23710&amp;s=2" style="color:black;" title="Brygge Blomsten"><b>Artillerivej  160, 10. 1</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">100</td>
+<td style="text-align:right;">14.622,60 kr.<br/>1.085,00 kr.</td>
+<td style="text-align:right;">01-07-2017</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="PKA_Logo_2014" src="/FBNImages/23faf18d-8f50-4b55-97e1-060dac0f8372.png" title="PKA_Logo_2014"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=23389&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=23389&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  4F, 4. TV.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">97</td>
+<td style="text-align:right;">14.145,83 kr.<br/>920,00 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=22504&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td>
+
+
+<td><a class="advertLink" href="/bolig.aspx?aid=22504&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2A, 1. TV.</b><br/>2300 København S</a></td>
+
+
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">101</td>
+<td style="text-align:right;">14.168,26 kr.<br/>780,00 kr.</td>
+<td style="text-align:right;">Ledig nu</td>
+<td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>

@@ -1,0 +1,1498 @@
+<bound method Tag.prettify of <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Find bolig | Listevisning | Findbolig.nu</title><noscript><meta content="1; URL=/no_javascript.aspx" http-equiv="refresh"/></noscript><link href="/css/DE-style.css?v=11" rel="stylesheet"/><link href="/css/jquery.css?v=11" rel="stylesheet"/><link href="/css/jquery.autocomplete.css?v=11" rel="stylesheet"/><link href="/css/dropMenu.css?v=11" rel="stylesheet"/><link href="/css/cookieWarning.css?v=11" rel="stylesheet"/><meta content="IE=9" http-equiv="X-UA-Compatible"/><meta content="lejebolig, bolig, udlejning" name="keywords"/><meta content="Findbolig.nu er en boligportal, hvor du gratis kan finde ledige lejligheder og ungdomsboliger i hele landet samt blive skrevet på venteliste." name="description"/><meta content="text/html; charset=utf-8" http-equiv="content-Type"/><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"5b92316091","applicationID":"53276336","transactionName":"MgMEbUBVXksEUUxZDQtJJ2piG1xZHF1NRBFKAA9XVlZfVAxVFV4XShUSWFxQUUoBEldeB0UVD11XVlFKRV5dVhZLBxVJSg==","queueTime":0,"applicationTime":868,"agent":"","atts":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1039.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><meta content="C#" name="CODE_LANGUAGE"/><meta content="JavaScript" name="vs_defaultClientScript"/><meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema"/><link href="/css/DE-style-gron.css?v=11" rel="stylesheet"/><script type="text/javascript">
+           
+            var ActiveColor = "gron";
+            var setSubmitRun = true;
+            var setColHeightRun = true;
+            var currentLang = "da";
+          </script><script src="/js/jquery.min.js" type="text/javascript"></script><script src="/js/jquery-ui.min.js" type="text/javascript"></script><script src="/js/jquery.pngFix.js" type="text/javascript"></script><script src="/js/jquery.tablesorter.js" type="text/javascript"></script><script src="/js/jquery.cookie.js" type="text/javascript"></script><script src="/js/dialog.js?v=11" type="text/javascript"></script><script src="/js/DE-layout.js?v=11" type="text/javascript"></script><script src="/js/ClientValidationTranslations.aspx?v=11" type="text/javascript"></script><script src="/js/validateForm.js?v=11" type="text/javascript"></script><script src="/js/DE-datePicker.js?v=11" type="text/javascript"></script><script src="/js/jquery.json-2.2.min.js" type="text/javascript"></script><script src="/js/WaitMap.js?v=11" type="text/javascript"></script><script src="/js/jquery.cookie.js?v=11" type="text/javascript"></script><script src="/js/jquery.alphanumeric.js?v=11" type="text/javascript"></script><script src="/js/jquery.autocomplete.js?v=11" type="text/javascript"></script><script src="/js/dropMenu.js?v=11" type="text/javascript"></script><script src="/js/cookieWarning.js?v=11" type="text/javascript"></script><script src="/js/ui.dropdownchecklist-1.3-min.js" type="text/javascript"></script>
+<meta content="" id="scID" name="scID"/>
+<meta content="" id="scPath" name="scPath"/>
+<meta content="" http-equiv="Content-Language" name="Language"/>
+</head>
+<body>
+<form action="/ledigeboliger/liste.aspx?sa=83328&amp;where=1000-2400,%202800,%202820,%202840,%202900,%202920&amp;m2min=70&amp;rentmax=15000&amp;roomsmin=2&amp;showrented=1&amp;showyouth=0&amp;showOpenDay=0&amp;showlimitedperiod=0&amp;showunlimitedperiod=1&amp;page=1&amp;pagesize=100" id="mainform" method="post">
+<div class="aspNetHidden">
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="/wEPDwUIMzY2ODYwNTkPFgIeE1ZhbGlkYXRlUmVxdWVzdE1vZGUCARYCAgMQZGQWBAIBD2QWBAIHDw8WBB4EVGV4dAUHTG9nIGluZB4LTmF2aWdhdGVVcmwFDC9sb2dpbmQuYXNweGRkAhEPDxYEHwIF4gEvbGVkaWdlYm9saWdlci9saXN0ZS5hc3B4P3NhPTgzMzI4JndoZXJlPTEwMDAtMjQwMCwgMjgwMCwgMjgyMCwgMjg0MCwgMjkwMCwgMjkyMCZtMm1pbj03MCZyZW50bWF4PTE1MDAwJnJvb21zbWluPTImc2hvd3JlbnRlZD0xJnNob3d5b3V0aD0wJnNob3dPcGVuRGF5PTAmc2hvd2xpbWl0ZWRwZXJpb2Q9MCZzaG93dW5saW1pdGVkcGVyaW9kPTEmcGFnZT0xJnBhZ2VzaXplPTEwMCZzY19sYW5nPWVuHwEFB0VuZ2xpc2hkZAIDD2QWBAIBD2QWAmYPZBYCZg9kFhICDg9kFgJmDxAPFgweDURhdGFUZXh0RmllbGQFBFRleHQeDkRhdGFWYWx1ZUZpZWxkBQVWYWx1ZR4LXyFEYXRhQm91bmRnHgxBdXRvUG9zdEJhY2toHghDc3NDbGFzcwUbaW5wdXQ1MCBlbnRlckV2ZW50IG1pbnZhbHVlHgRfIVNCAgJkEBUhAARLbGQuA1N0LgIxLgIyLgIzLgI0LgI1LgI2LgI3LgI4LgI5LgMxMC4DMTEuAzEyLgMxMy4DMTQuAzE1LgMxNi4DMTcuAzE4LgMxOS4DMjAuAzIxLgMyMi4DMjMuAzI0LgMyNS4DMjYuAzI3LgMyOC4DMjkuAzMwLhUhAi0yAi0xATABMQEyATMBNAE1ATYBNwE4ATkCMTACMTECMTICMTMCMTQCMTUCMTYCMTcCMTgCMTkCMjACMjECMjICMjMCMjQCMjUCMjYCMjcCMjgCMjkCMzAUKwMhZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZGQCDw9kFgJmDxAPFgwfAwUEVGV4dB8EBQVWYWx1ZR8FZx8GaB8HBRtpbnB1dDUwIGVudGVyRXZlbnQgbWF4dmFsdWUfCAICZBAVIQAES2xkLgNTdC4CMS4CMi4CMy4CNC4CNS4CNi4CNy4COC4COS4DMTAuAzExLgMxMi4DMTMuAzE0LgMxNS4DMTYuAzE3LgMxOC4DMTkuAzIwLgMyMS4DMjIuAzIzLgMyNC4DMjUuAzI2LgMyNy4DMjguAzI5LgMzMC4VIQItMgItMQEwATEBMgEzATQBNQE2ATcBOAE5AjEwAjExAjEyAjEzAjE0AjE1AjE2AjE3AjE4AjE5AjIwAjIxAjIyAjIzAjI0AjI1AjI2AjI3AjI4AjI5AjMwFCsDIWdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2RkAhIPEA8WAh4HQ2hlY2tlZGdkZGRkAhMPEA8WAh8JaGRkZGQCFQ9kFgJmDxAPFgYfAwUEVGV4dB8EBQVWYWx1ZR8FZ2QQFQEFQWx0YW4VAQIxNBQrAwFnZGQCFg9kFgJmDxAPFgYfAwUEVGV4dB8EBQVWYWx1ZR8FZ2QQFQgIRWxldmF0b3IJR8OlcmRoYXZlDkh1c2R5ciBmb3JidWR0Dkh1c2R5ciB0aWxsYWR0CEludGVybmV0CUxlZ2VwbGFkcwlQYXJrZXJpbmcHVmFza2VyaRUIATEBNAIxMgE2AjM0ATkCMTACMTMUKwMIZ2dnZ2dnZ2dkZAIXDxYCHgdWaXNpYmxlZxYCAgUPEA8WAh8JaGRkZGQCGA8WAh8KZ2QCGQ8WAh8KZxYCAgUPEA8WBh8EBQ9MYW5kaW5nUGFnZVBhdGgfAwUETmFtZR8FZ2QQFQwTVsOmbGcgcGVuc2lvbnNrYXNzZQpBUCBQZW5zaW9uA0RJUARKw5hQEUzDpnJlcm5lcyBQZW5zaW9uA1BCVQZQZW5zYW0OUGVuc2lvbkRhbm1hcmsfUGVuc2lvbnNrYXNzZW4gZm9yIEZhcm1ha29ub21lcgNQS0EKU2FtcGVuc2lvbhFUREMgUGVuc2lvbnNrYXNzZRUMABIvYXAlMjBwZW5zaW9uLmFzcHgJL0RJUC5hc3B4Ci9qb2VwLmFzcHgPL2xwcGVuc2lvbi5hc3B4CS9wYnUuYXNweAwvcGVuc2FtLmFzcHgUL1BlbnNpb25EYW5tYXJrLmFzcHgSL0Zhcm1ha29ub21lci5hc3B4CS9QS0EuYXNweBAvc2FtcGVuc2lvbi5hc3B4Iy9MYW5kaW5nUGFnZXMvdGRjcGVuc2lvbnNrYXNzZS5hc3B4FCsDDGdnZ2dnZ2dnZ2dnZ2RkAgMPZBYCZg9kFgJmD2QWAgIBD2QWBGYPZBYGZg9kFgQCAQ8PFgIfAQUNMzkgUmVzdWx0YXRlcmRkAgUPFgIeBGhyZWYF4AEvbGVkaWdlYm9saWdlci9saXN0ZS5hc3B4P3NhPTgzMzI4JndoZXJlPTEwMDAtMjQwMCwlMjAyODAwLCUyMDI4MjAsJTIwMjg0MCwlMjAyOTAwLCUyMDI5MjAmbTJtaW49NzAmcmVudG1heD0xNTAwMCZyb29tc21pbj0yJnNob3dyZW50ZWQ9MSZzaG93eW91dGg9MCZzaG93T3BlbkRheT0wJnNob3dsaW1pdGVkcGVyaW9kPTAmc2hvd3VubGltaXRlZHBlcmlvZD0xJnBhZ2U9MSZwYWdlc2l6ZT0xMBYCZg8PFgIfAQUaVmlzIDEwIHJlc3VsdGF0ZXIgcHIuIHNpZGVkZAICDxYCHgtfIUl0ZW1Db3VudAIHZAIEDxYCHwwCJ2QCAg8PFgIfCmhkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WEAU2Y3RsMDAkcGxhY2Vob2xkZXJzaWRlYmFyXzAkY2hrX3Jlc2lkZW5jZVR5cGVfTGVqZWJvbGlnBUJjdGwwMCRwbGFjZWhvbGRlcnNpZGViYXJfMCRjaGtfcmVzaWRlbmNlVHlwZV9MZWplYm9saWdVbmdkb21zYm9saWcFTGN0bDAwJHBsYWNlaG9sZGVyc2lkZWJhcl8wJGNoa0xpc3RfRmFjaWxpdGllc1Jlc2lkZW5jZSRjaGtsc3RfQ2hlY2tCb3hMaXN0JDAFTGN0bDAwJHBsYWNlaG9sZGVyc2lkZWJhcl8wJGNoa0xpc3RfRmFjaWxpdGllc1Jlc2lkZW5jZSRjaGtsc3RfQ2hlY2tCb3hMaXN0JDAFS2N0bDAwJHBsYWNlaG9sZGVyc2lkZWJhcl8wJGNoa0xpc3RfRmFjaWxpdGllc0J1aWxkaW5nJGNoa2xzdF9DaGVja0JveExpc3QkMAVLY3RsMDAkcGxhY2Vob2xkZXJzaWRlYmFyXzAkY2hrTGlzdF9GYWNpbGl0aWVzQnVpbGRpbmckY2hrbHN0X0NoZWNrQm94TGlzdCQxBUtjdGwwMCRwbGFjZWhvbGRlcnNpZGViYXJfMCRjaGtMaXN0X0ZhY2lsaXRpZXNCdWlsZGluZyRjaGtsc3RfQ2hlY2tCb3hMaXN0JDIFS2N0bDAwJHBsYWNlaG9sZGVyc2lkZWJhcl8wJGNoa0xpc3RfRmFjaWxpdGllc0J1aWxkaW5nJGNoa2xzdF9DaGVja0JveExpc3QkMwVLY3RsMDAkcGxhY2Vob2xkZXJzaWRlYmFyXzAkY2hrTGlzdF9GYWNpbGl0aWVzQnVpbGRpbmckY2hrbHN0X0NoZWNrQm94TGlzdCQ0BUtjdGwwMCRwbGFjZWhvbGRlcnNpZGViYXJfMCRjaGtMaXN0X0ZhY2lsaXRpZXNCdWlsZGluZyRjaGtsc3RfQ2hlY2tCb3hMaXN0JDUFS2N0bDAwJHBsYWNlaG9sZGVyc2lkZWJhcl8wJGNoa0xpc3RfRmFjaWxpdGllc0J1aWxkaW5nJGNoa2xzdF9DaGVja0JveExpc3QkNgVLY3RsMDAkcGxhY2Vob2xkZXJzaWRlYmFyXzAkY2hrTGlzdF9GYWNpbGl0aWVzQnVpbGRpbmckY2hrbHN0X0NoZWNrQm94TGlzdCQ3BUtjdGwwMCRwbGFjZWhvbGRlcnNpZGViYXJfMCRjaGtMaXN0X0ZhY2lsaXRpZXNCdWlsZGluZyRjaGtsc3RfQ2hlY2tCb3hMaXN0JDcFLmN0bDAwJHBsYWNlaG9sZGVyc2lkZWJhcl8wJGNoa19VbkxpbWl0ZWRQZXJpb2QFKmN0bDAwJHBsYWNlaG9sZGVyc2lkZWJhcl8wJGNoa19UaW1lTGltaXRlZAUuY3RsMDAkcGxhY2Vob2xkZXJzaWRlYmFyXzAkY2hrX1Nob3dPbmx5T3BlbkRheeFKiOx2trPUD3vmipQQrQ72cJob7Rc9nJtHTu9XeWjy"/>
+</div>
+<div class="aspNetHidden">
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="4BD4DB67"/>
+<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="/wEdAGlv9nn+4GwGXRCqOXYBxVzFO96s77IEw/uTNebIhi5YxCwxjk7F5U+k2xBx2aDgVOfYRST98mNzAHANhXHlBnSLXzW4rxnlfCR8t/5ZbR9DUKlgZmPUnAGBLLk0gb0ZfljJbeNr85n7rOEpJTeZLvz393NKkLkf9Aer4ARGff4+F5ur4oVzqG79tGpTLWXNfc0o2g8NPTEDDrUcQkj0sMnEgQGuehPQ3KJSeIzxelSr3qkLNyoNEGK59PILBFjJx3EWSyEI3inK6VYVTP1yixZDGYcszvBvVeLfckGmMPIPZjcPTLLvR464Hdc8Ehn8CT3nqe9jHIPTFt4G0qFFZktkHUs5quuAIpZVx4PCY/0iDTtsElm/FrW6XzDMyYnoVwdWWs6sr3xjQYaKmB5fOIF8NeKzjeJv+Ic4gBQ/EFoKcLyh6KEByVYcLjZDlq35JRxqnhzqepxnb6X2qTJRMS6jbVf2CwoehF0U+0OgqDD4mreyjdWpB/BRpk+oP8F6O2OXkui8TiqPK7tTAIKT4B1PUISPDVhiCxd/x0F6PSIN2KWga+euQqFtsFS8BBYoW3OHHywjbJ/PIXxTBwJQsHJQLPAmAD+dli/WQv1KDIHHAaW5wd+KCvyCxvWPv2s92G0rS3y4hKItbQX0mOaGle14/ukvcdKA6qmBZXS1jiApKMiwJJTblqQ5ffLqtufaRxUgT6ysWRH2y2XRNSCbWh28+Vfd3sYGecu3aogr/WBjeeEWtCkfruL91CwfwrtBe9omi3Ccm5C9ksyn/GPc97jKVhhAYQYN4Lup523klzognlhQONYRPZg1hvt3saDUms0DVaY5mqJ59hgynDRMaRYi4XdbhcWDqunjOlvPBXSYryPBeJJ5qHoLTikfJKprn37/l8KcgwtfhSPHDts/RB25jJPf+5ySDtY6zBZIO9kwgz21/nVvV+1hiGxXl/9QE24yd4lFe1xrp6uFH+ogpNz+TLeiOJHmX5rSx25V112nuio6yl8l3ISzEZo4NU0bAGvq+9hT1vacvLszVI/qBhm6cOs3MfNAlmIInyK4gABvs2BDmAXKkqlhENEYlBbz4SkmkMPvUEqIeqw7pPBx9khRgfjVGsA1RhO953JCVXVZRuMyx81LDTnB/06pqKcPFvz0tsLzYFLsusIe1z6BdUEiX/ng5zr/gwM+6qpmUVQcFp28B01i9Dxy44E+NqF197IeXnyjk9h8sZmFlYILLowk2WrAg0Zx1AJEMEZjlQCA13HiEVUhHZz08tgkma9goie6fr65gY4itP8U9V6+d+7i4aMnKsckyNff9gEbvkuYXzItGQmIBw+8iPqb8TVwndAH29i8Z5W30eZVIvbGupnRhfeiAEH6YWg+dD9C3JcvnDkSuffk5Z8uDNrgY++cEb9moRX3YQInNpqjB9eNATukUHFrR3OaZJn1WvcJb8DWyFsxwQSwZGdIZHe08HVymU+yR42DZvSQFKt2py+jPHBi/xZpquIEyuc6qQFoJNaIRLkcQYOcGZe1EbzKVmBsIFoWuKL1hrOZ1xGlSYRMKfJU55E78vZEOQeYEfKQRZ2hhmcD9KbMgmzrOXKFnOQ8hH+MwHDQiw6R9m+uhp2sE3Yv40kk11xPoO8WGx1N4RWXKYIot95M/8W0I8y9oCXmMAidVY2pwYxFSHsRcJvA+apDtlF3d03oO1cy4hdl/x6ZVYhiONsVFJn6J0Lh+BPoOB12qoNruZuZ2aL7NzftOuVao0CpXk4sacu84jik3Hp6e3lse1uHLFREhTl8Ok07VoHIBCTyOpfkW/J3ZwTU8Dsr9+HMBqFCRsEPMbaRBZvLkibIvWsdhzkUcKOtRbtrNcWrF+kLvXUz7VaNQ/eY7TbtuQgefSNJIwi6LnS0C4U40IGy/Ho/WhHbXkPHNS38+KLgl9sk1a++tyd4alSu57YGLKplqK/xywK3fI/2dtxIMbsCNIp7qTCgAwQz+pgZEyeVtYxnmDwbV1AHKT9OgjmzHdMIupAuox4/wqn2eUGiguZSSQdnNjFWzYOEWBX/ghrT+ptZfXhngjqsF2XLHoUGIYVpHFWJJNY/q7zS7VlMODxwQMPiQbJSZJxPtCDVlVvomNc0w33ryE3+rKJYw/Uni+8sxIBQHihtEzNq9n7W63k9CV0Tasca814mmpVjrJq03BWQX79OWGAMVROYP9npUrsKzPsKzkvC6v58W9d/h+AzcMceIX3C/TT4t0l3zHFYepcFzoQK1RlZU5bLSCsiaMNCMTNK/D1iOECg0fjCTQ=="/>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        if (self != top) {
+            $(document.body).css("display", "none");
+            top.location.href = "/";
+        }
+    });            
+</script>
+<div class="cookieText">
+<h2>Accepter brug af cookies</h2>
+<p>For at give dig mulighed for at søge ledige boliger, skrive dig på venteliste, udleje boliger og meget mere, <br/>anvender vi cookies på Findbolig.nu. Vi bruger også cookies til at indsamle statistik. <a href="~/link.aspx?_id=1CAE61136E6147BE883E30C609A51210&amp;_z=z">Læs mere om vores cookie-politik</a></p>
+</div>
+<div class="hovedfaneblade">
+<div id="topBar">
+<p class="logo">
+<a href="/" title="findbolig.nu">  </a>
+</p>
+<p class="userName">
+<b><span id="fm1_lbl_userName"></span></b><span id="fm1_lbl_CompanyName"></span>
+<a class="bulletLink" href="/logind.aspx" id="fm1_link_Login">Log ind</a>
+</p>
+<div class="tabs">
+<p class="udlej">
+<a href="/udlejbolig-nu.aspx" id="fm1_link_publiher">Udlejbolig.nu</a>
+</p>
+</div>
+</div>
+<div id="topmenu">
+<div><p class="menuActive"><a href="/da-DK/Findbolig-nu/Find-bolig">Find bolig</a></p><div class="dropMenu"><ul><li><a href="/da-DK/Findbolig-nu/Find-bolig/Ledige-boliger">Ledige boliger</a></li><li><a href="/da-DK/Findbolig-nu/Find-bolig/Ventelisteboliger">Ventelisteboliger</a></li><li><a href="/da-DK/Findbolig-nu/Find-bolig/Ungdomsboliger">Ungdomsboliger</a></li></ul></div></div><div><p class="menu"><a href="/da-DK/Findbolig-nu/At-bo-til-leje">At bo til leje</a></p></div><div><p class="menu"><a href="/da-DK/Findbolig-nu/Udlejere">Udlejere</a></p></div>
+<p style="display: none;">
+</p>
+<p>
+<a href="/login/help.aspx">Hjælp</a></p>
+<p>
+<a href="/omfindbolig.aspx">Om Findbolig.nu</a></p>
+<br style="clear: both;"/>
+</div>
+</div>
+<div class="indholdsomraade">
+<div class="sidekolonne" id="colLeft">
+<script src="/js/QuerySearchSimple.js" type="text/javascript"> </script>
+<style>
+.ui-autocomplete { position: absolute; cursor: default;height:250px; }	
+
+.maxMininputs select
+{
+    width: 51px;
+}
+
+.maxMininputs input
+{
+    width: 48px;
+    padding-left: 1px; padding-right: 0px;
+    margin-left: 0px; margin-right: 0px;
+}
+</style>
+<div id="subTabs">
+<ul>
+<li class="subTabCurrent">
+<a href="/ledigeboliger.aspx">Ledige</a>
+</li>
+<li>
+<a href="/ventelisteboliger.aspx">Venteliste</a>
+</li>
+</ul>
+</div>
+<div class="formSection darkBg padRightLarge" id="searchCriteriaContainer">
+<p>
+        Hvor:<a class="bulletLinkInfo" href="#" id="lnk_InfoWhere"> </a>
+<br/>
+<input class="input188 enterEvent searchagentValidator whereTxt" id="ctl00_placeholdersidebar_0_txt_where" maxlength="200" name="ctl00$placeholdersidebar_0$txt_where" onfocus="clearField(this, whereDefaultText ,true);" style="color: rgb(150,150,150)" type="text" value="1000-2400, 2800, 2820, 2840, 2900, 2920"/>
+</p>
+<p>
+        Ejendomsnavn eller adresse:<br/>
+<input class="input188 geoinput enterEvent searchagentValidator" id="ctl00_placeholdersidebar_0_txt_Address" maxlength="200" name="ctl00$placeholdersidebar_0$txt_Address" type="text"/>
+</p>
+<br/>
+<p class="searchFirstColumnWidth" style="padding-top:6px;"> 
+        Husleje:        
+    </p>
+<p class="floatRight maxMininputs" style="padding-top:6px;">
+<input class="input50 enterEvent minvalue" id="ctl00_placeholdersidebar_0_txt_RentMin" maxlength="9" name="ctl00$placeholdersidebar_0$txt_RentMin" style="color: rgb(150,150,150)" type="text" value="Min"/><span class="minMaxSpace">-</span><input class="input50 enterEvent maxvalue" id="ctl00_placeholdersidebar_0_txt_RentMax" maxlength="9" name="ctl00$placeholdersidebar_0$txt_RentMax" style="color: rgb(150,150,150)" type="text" value="15000"/>
+</p>
+<div class="floatNone"></div>
+<p class="searchFirstColumnWidth"> 
+        Værelser:
+    </p>
+<p class="floatRight maxMininputs">
+<input class="input50 enterEvent minvalue" id="ctl00_placeholdersidebar_0_txt_RoomsMin" maxlength="9" name="ctl00$placeholdersidebar_0$txt_RoomsMin" style="color: rgb(150,150,150)" type="text" value="2"/><span class="minMaxSpace">-</span><input class="input50 enterEvent maxvalue" id="ctl00_placeholdersidebar_0_txt_RoomsMax" maxlength="9" name="ctl00$placeholdersidebar_0$txt_RoomsMax" style="color: rgb(150,150,150)" type="text" value="Max"/>
+</p>
+<div class="floatNone"></div>
+<p class="searchFirstColumnWidth"> 
+        Boligareal:
+    </p>
+<p class="floatRight maxMininputs">
+<input class="input50 enterEvent minvalue" id="ctl00_placeholdersidebar_0_txt_M2Min" maxlength="9" name="ctl00$placeholdersidebar_0$txt_M2Min" style="color: rgb(150,150,150)" type="text" value="70"/><span class="minMaxSpace">-</span><input class="input50 enterEvent maxvalue" id="ctl00_placeholdersidebar_0_txt_M2Max" maxlength="9" name="ctl00$placeholdersidebar_0$txt_M2Max" style="color: rgb(150,150,150)" type="text" value="Max"/>
+</p>
+<div class="floatNone"></div>
+<p class="searchFirstColumnWidth"> 
+        Etage:
+    </p>
+<p class="floatRight maxMininputs">
+<select class="input50 enterEvent minvalue" id="ctl00_placeholdersidebar_0_ddlFloorMin_ddl_DropDown" name="ctl00$placeholdersidebar_0$ddlFloorMin$ddl_DropDown">
+<option value="-2"></option>
+<option value="-1">Kld.</option>
+<option value="0">St.</option>
+<option value="1">1.</option>
+<option value="2">2.</option>
+<option value="3">3.</option>
+<option value="4">4.</option>
+<option value="5">5.</option>
+<option value="6">6.</option>
+<option value="7">7.</option>
+<option value="8">8.</option>
+<option value="9">9.</option>
+<option value="10">10.</option>
+<option value="11">11.</option>
+<option value="12">12.</option>
+<option value="13">13.</option>
+<option value="14">14.</option>
+<option value="15">15.</option>
+<option value="16">16.</option>
+<option value="17">17.</option>
+<option value="18">18.</option>
+<option value="19">19.</option>
+<option value="20">20.</option>
+<option value="21">21.</option>
+<option value="22">22.</option>
+<option value="23">23.</option>
+<option value="24">24.</option>
+<option value="25">25.</option>
+<option value="26">26.</option>
+<option value="27">27.</option>
+<option value="28">28.</option>
+<option value="29">29.</option>
+<option value="30">30.</option>
+</select><span class="minMaxSpace">-</span><select class="input50 enterEvent maxvalue" id="ctl00_placeholdersidebar_0_ddlFloorMax_ddl_DropDown" name="ctl00$placeholdersidebar_0$ddlFloorMax$ddl_DropDown">
+<option value="-2"></option>
+<option value="-1">Kld.</option>
+<option value="0">St.</option>
+<option value="1">1.</option>
+<option value="2">2.</option>
+<option value="3">3.</option>
+<option value="4">4.</option>
+<option value="5">5.</option>
+<option value="6">6.</option>
+<option value="7">7.</option>
+<option value="8">8.</option>
+<option value="9">9.</option>
+<option value="10">10.</option>
+<option value="11">11.</option>
+<option value="12">12.</option>
+<option value="13">13.</option>
+<option value="14">14.</option>
+<option value="15">15.</option>
+<option value="16">16.</option>
+<option value="17">17.</option>
+<option value="18">18.</option>
+<option value="19">19.</option>
+<option value="20">20.</option>
+<option value="21">21.</option>
+<option value="22">22.</option>
+<option value="23">23.</option>
+<option value="24">24.</option>
+<option value="25">25.</option>
+<option value="26">26.</option>
+<option value="27">27.</option>
+<option value="28">28.</option>
+<option value="29">29.</option>
+<option value="30">30.</option>
+</select>
+</p>
+<div class="floatNone"></div>
+</div>
+<div class="formSection darkBg padRightLarge" id="residenceTypeDiv">
+<p class="mainArea cursorHand" id="ctl00_placeholdersidebar_0_selectionArea_ResidenceType"><img alt="" class="searchareaArrow" src="/gfx/section-expanded.gif" title=""/><b>Boligtype</b></p>
+<br/>
+<div class="selectionArea" id="a1" style="display: block;">
+<table>
+<tr>
+<td><input checked="checked" id="ctl00_placeholdersidebar_0_chk_residenceType_Lejebolig" name="ctl00$placeholdersidebar_0$chk_residenceType_Lejebolig" type="checkbox"/><label for="ctl00_placeholdersidebar_0_chk_residenceType_Lejebolig">Lejebolig</label></td>
+</tr>
+<tr>
+<td><input id="ctl00_placeholdersidebar_0_chk_residenceType_LejeboligUngdomsbolig" name="ctl00$placeholdersidebar_0$chk_residenceType_LejeboligUngdomsbolig" type="checkbox"/><label for="ctl00_placeholdersidebar_0_chk_residenceType_LejeboligUngdomsbolig">Ungdomsbolig</label></td>
+</tr>
+</table>
+</div>
+</div>
+<div class="formSection darkBg padRightLarge">
+<p class="mainArea cursorHand" id="ctl00_placeholdersidebar_0_selectionArea_facilities"><img alt="" class="searchareaArrow" src="/gfx/section-collapsed.gif" title=""/><b>Faciliteter </b></p>
+<br/>
+<div class="selectionArea" id="a2">
+<span id="ctl00_placeholdersidebar_0_chkList_FacilitiesResidence_chklst_CheckBoxList"><span class="dbvalue" id="14"><input id="ctl00_placeholdersidebar_0_chkList_FacilitiesResidence_chklst_CheckBoxList_0" name="ctl00$placeholdersidebar_0$chkList_FacilitiesResidence$chklst_CheckBoxList$0" type="checkbox" value="14"/><label for="ctl00_placeholdersidebar_0_chkList_FacilitiesResidence_chklst_CheckBoxList_0">Altan</label></span></span>
+<span id="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList"><span class="dbvalue" id="1"><input id="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_0" name="ctl00$placeholdersidebar_0$chkList_FacilitiesBuilding$chklst_CheckBoxList$0" type="checkbox" value="1"/><label for="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_0">Elevator</label></span><br/><span class="dbvalue" id="4"><input id="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_1" name="ctl00$placeholdersidebar_0$chkList_FacilitiesBuilding$chklst_CheckBoxList$1" type="checkbox" value="4"/><label for="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_1">Gårdhave</label></span><br/><span class="dbvalue" id="12"><input id="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_2" name="ctl00$placeholdersidebar_0$chkList_FacilitiesBuilding$chklst_CheckBoxList$2" type="checkbox" value="12"/><label for="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_2">Husdyr forbudt</label></span><br/><span class="dbvalue" id="6"><input id="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_3" name="ctl00$placeholdersidebar_0$chkList_FacilitiesBuilding$chklst_CheckBoxList$3" type="checkbox" value="6"/><label for="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_3">Husdyr tilladt</label></span><br/><span class="dbvalue" id="34"><input id="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_4" name="ctl00$placeholdersidebar_0$chkList_FacilitiesBuilding$chklst_CheckBoxList$4" type="checkbox" value="34"/><label for="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_4">Internet</label></span><br/><span class="dbvalue" id="9"><input id="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_5" name="ctl00$placeholdersidebar_0$chkList_FacilitiesBuilding$chklst_CheckBoxList$5" type="checkbox" value="9"/><label for="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_5">Legeplads</label></span><br/><span class="dbvalue" id="10"><input id="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_6" name="ctl00$placeholdersidebar_0$chkList_FacilitiesBuilding$chklst_CheckBoxList$6" type="checkbox" value="10"/><label for="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_6">Parkering</label></span><br/><span class="dbvalue" id="13"><input id="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_7" name="ctl00$placeholdersidebar_0$chkList_FacilitiesBuilding$chklst_CheckBoxList$7" type="checkbox" value="13"/><label for="ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList_7">Vaskeri</label></span></span>
+</div>
+</div>
+<div class="formSection darkBg padRightLarge" id="ctl00_placeholdersidebar_0_divRentPeriodArea">
+<p class="mainArea cursorHand" id="selectionArea_RentPeriod"><img alt="" class="searchareaArrow" src="/gfx/section-collapsed.gif" title=""/><b>Lejeperiode</b></p>
+<br/>
+<div class="selectionArea" id="a3">
+<table>
+<tr>
+<td><span class="enterEvent"><input checked="checked" id="ctl00_placeholdersidebar_0_chk_UnLimitedPeriod" name="ctl00$placeholdersidebar_0$chk_UnLimitedPeriod" type="checkbox"/><label for="ctl00_placeholdersidebar_0_chk_UnLimitedPeriod">Ubegrænset</label></span></td>
+</tr>
+<tr>
+<td><span class="enterEvent"><input id="ctl00_placeholdersidebar_0_chk_TimeLimited" name="ctl00$placeholdersidebar_0$chk_TimeLimited" type="checkbox"/><label for="ctl00_placeholdersidebar_0_chk_TimeLimited">Tidsbegrænset</label></span></td>
+</tr>
+</table>
+</div>
+</div>
+<div class="formSection darkBg padRightLarge" id="ctl00_placeholdersidebar_0_divOpenHouseArea">
+<p class="mainArea cursorHand" id="selectionArea_OpenHouse"><img alt="" class="searchareaArrow" src="/gfx/section-collapsed.gif" title=""/><b>Åbent hus</b></p>
+<br/>
+<div class="selectionArea" id="a4" style="padding-left:6px;">
+<span class="enterEvent"><input id="ctl00_placeholdersidebar_0_chk_ShowOnlyOpenDay" name="ctl00$placeholdersidebar_0$chk_ShowOnlyOpenDay" type="checkbox"/><label for="ctl00_placeholdersidebar_0_chk_ShowOnlyOpenDay">Kun boliger med åbent hus</label></span>
+</div>
+</div>
+<div class="formSection darkBg padRightLarge" id="ctl00_placeholdersidebar_0_divMemberOfPensionFundArea">
+<h2 style="margin-bottom:0px;font-size: 15px;">Medlem af pensionskasse</h2>
+<p>Er du medlem af en af nedenstående pensionskasser, kan du benytte dine medlemsfordele og få adgang til boliger med fortrinsret</p>
+<p style="padding-top:4px;">
+<select class="input195" id="ctl00_placeholdersidebar_0_ddl_MemberOfPensionFounds" name="ctl00$placeholdersidebar_0$ddl_MemberOfPensionFounds">
+<option value="">Vælg pensionskasse</option>
+<option value="/ap%20pension.aspx">AP Pension</option>
+<option value="/DIP.aspx">DIP</option>
+<option value="/joep.aspx">JØP</option>
+<option value="/lppension.aspx">Lærernes Pension</option>
+<option value="/pbu.aspx">PBU</option>
+<option value="/pensam.aspx">Pensam</option>
+<option value="/PensionDanmark.aspx">PensionDanmark</option>
+<option value="/Farmakonomer.aspx">Pensionskassen for Farmakonomer</option>
+<option value="/PKA.aspx">PKA</option>
+<option value="/sampension.aspx">Sampension</option>
+<option value="/LandingPages/tdcpensionskasse.aspx">TDC Pensionskasse</option>
+</select>
+</p>
+</div>
+<div class="formSectionSubmit darkBg" style="padding: 10px; padding-left: 20px;padding-bottom:0px; margin-top:1px;">
+<div class="ButtonSubmit"><a href="#" id="butMapSearch" onclick="doSearchOnMap();return false;" style="display:inline-block;width:54px;">Vis kort</a></div>
+<div class="ButtonSubmit"><a href="#" id="butListSearch" onclick="doSearchOnList();" style="display:inline-block;width:54px;">Vis liste</a></div>
+<br/>
+<p style="padding-left:0px;text-align:left;padding-right:10px;">
+<a class="white" href="#" id="clearFields">Ryd felter</a>
+</p>
+</div>
+<div class="teaser highBottomBorder" id="createResidenceAgent" onclick="renderResidenceAgent();return false;" style="cursor:pointer;"><img align="left" src="~/media/Images/boligagent.ashx"/>
+<h2>Boligagent</h2>
+<p>Opret en boligagent</p>
+</div>
+<input id="ctl00_placeholdersidebar_0_btnRedirectToLogin" name="ctl00$placeholdersidebar_0$btnRedirectToLogin" onclick="javascript:__doPostBack('ctl00$placeholdersidebar_0$btnRedirectToLogin','')" style="display: none;" type="button" value=""/>
+<input id="ctl00_placeholdersidebar_0_redirectUrl" name="ctl00$placeholdersidebar_0$redirectUrl" type="hidden"/>
+<div class="noDisplay" id="ctl00_placeholdersidebar_0_popup_Help">
+<div class="outerpair1"><div class="outerpair2"><div class="shadowbox"><div class="innerbox"><h1>Hjælp til søgning</h1>
+<p>
+<strong>Adresse</strong>
+</p>
+<p>Søg på et område (fx 'Fyn'), en by (fx 'Vejle'), et eller flere postnumre (fx '6000' eller '2210-8230' eller '2100, 2200, 2300').<br/>Du kan også søge på ejendommens navn eller et vejnavn.</p>
+<p>
+<strong>Boligønsker</strong>
+</p>
+<p>Indtast dine ønsker for minimum- og maksimum husleje, antal værelser, boligareal og etage - eller lad felterne være tomme.</p>
+<p>
+<b>Boligtype og Faciliteter</b>
+</p>
+<p>Her kan du angive mere detaljerede ønsker til din bolig.<br/>Giver din søgning for mange boliger, kan du markere flere ønsker her. Giver din søgning for få boliger, kan du prøve at fjerne dine markeringer.</p>
+<p>
+<strong>Medlem af pensionskasse</strong>
+</p>
+<p>Nogle pensionskasser giver deres medlemmer fortrinsret til pensionskassens boliger. Vælg den pensionskasse, du er medlem af eller har anden tilknytning til for at finde pensionskassens boliger.</p>
+<p>
+<strong>Søgning</strong>
+</p>
+<p>Klik på én af de to knapper i bunden for at søge boliger frem.<br/>'Vis kort' - her får du vist boligernes placering på et kort med røde pile. Klik på en rød pil for at se mere information om den enkelte bolig.<br/>'Vis liste' - her får du vist boligerne med et billede, adresse og andre informationer. Klik på billedet eller adressen for at se mere information om den enkelte bolig.</p>
+<p>
+<strong>Boligagent</strong>
+</p>
+<p>Når du har lavet en boligsøgning, kan du nederst i det mørkegrå felt klikke på 'Boligagent' for at gemme din søgning. <br/>Du kan gemme helt op til 10 boligagenter.</p>
+</div></div></div></div></div>
+<input id="ctl00_placeholdersidebar_0_hdnTest" name="ctl00$placeholdersidebar_0$hdnTest" type="hidden" value="0"/>
+<script type="text/javascript">       
+
+    function renderResidenceAgent() {
+        var publicUser = '';
+        var searchListUrl = "/ledigeboliger/liste.aspx?&showrented=1&showyouth=1&showlimitedperiod=1&showunlimitedperiod=1&showOpenDay=0";
+
+        if (publicUser == '') {
+
+            // User not logged in. Redirect to login page.
+
+            if (UrlListResult.indexOf("liste.aspx") == -1 && UrlListResult.indexOf("kort.aspx") == -1) {
+                // Front search page.
+                document.getElementById('ctl00_placeholdersidebar_0_redirectUrl').value = searchListUrl;
+            } else if (UrlListResult.indexOf("kort.aspx") != -1) {
+                // Map search page.
+                document.getElementById('ctl00_placeholdersidebar_0_redirectUrl').value = "/ledigeboliger/liste.aspx?" + getQueryString().queryString + "&showdialog=1";
+            } else {
+                // List search page.
+                document.getElementById('ctl00_placeholdersidebar_0_redirectUrl').value = UrlListResult +"?" + getQueryString().queryString + "&showdialog=1";
+            }
+
+            document.getElementById('ctl00_placeholdersidebar_0_btnRedirectToLogin').click();
+        } else {
+
+            // User logged in - redirect to search list page.
+
+            if (UrlListResult.indexOf("liste.aspx") == -1 && UrlListResult.indexOf("kort.aspx") == -1) {
+                // Front search page.
+                document.location.href = searchListUrl;
+            } else if (UrlListResult.indexOf("kort.aspx") != -1) {
+                // Map search page.
+                document.location.href = "/ledigeboliger/liste.aspx?" + getQueryString().queryString + "&showdialog=1";
+            } else {
+                // List search page.
+                document.location.href = UrlListResult +"?" + getQueryString().queryString + "&showdialog=1";
+            }
+        }
+    }
+
+    setColHeightRun = false;
+    var collapsed = "/gfx/section-collapsed.gif";
+    var expanded = "/gfx/section-expanded.gif";
+    var whereDefaultText = "By, postnr";
+    var minDefaultText = "Min";
+    var maxDefaultText = "Max";
+    var focusField = "";
+    var lastRequestedQuery = null;
+    
+    
+        var UrlListResult = "/ledigeboliger/liste.aspx"; 
+        var UrlMapResult = "/ledigeboliger/kort.aspx"; 
+        var addressSearchServiceUrl = "/Services/GetAdvertAddressSearch.ashx";
+    
+
+    var venteliste = false;
+
+    $(document).ready(function () {
+        venteliste = $('False').val();
+
+        
+            $("#createResidenceAgent").css("display", "visible");
+        
+
+        $("#colLeft").css("background-color", "#fff");
+
+        
+        $(".mainArea").bind("click", function () {            
+            openCloseSelectionArea(this);
+        });
+
+          
+        $("#ctl00_placeholdersidebar_0_ddl_MemberOfPensionFounds").bind("change", function () {
+            if ($(this).val() == null || $(this).val() == "") {
+                document.location.href = "/";
+            } else {
+                document.location.href = $(this).val();
+            }
+        });
+       
+         
+        $("#ctl00_placeholdersidebar_0_txt_where").autocomplete('/Services/GetPostalCodes.ashx', {
+            delay: 400,
+            minChars: 4,
+            multiple: true, 
+            cacheLength: 1,
+            autoFill: false,
+            max:100,        
+            selectFirst: false,  
+            multipleSeparator: ", ",
+            dataType: "json",
+            parse: function (data) {
+                return $.map(data, function (row) {
+                    return {
+                        data: row,
+                        value: row.PostalCodeID + "",
+                        result: formatWhere(row)                        
+                    }
+                });
+            },
+            formatItem: function (item) {
+                return formatWhere(item);
+            }
+        }).result(function (e, item) {                        
+        });
+
+        function formatWhere(item) {
+            if ((item.PostalCodeID + "").length < 4) {
+                return item.City;
+            }else{
+                return item.City + " " + item.PostalCodeID;
+            }            
+        }
+
+          
+        $("#ctl00_placeholdersidebar_0_txt_Address").autocomplete(addressSearchServiceUrl, {
+            delay: 400,
+            minChars: 4,
+            multiple: false,           
+            dataType: "json",
+            cacheLength: 1,
+            autoFill: false,
+            max:100,        
+            selectFirst: false,             
+            parse: function (data) {
+                return $.map(data, function (row) {
+                    return {
+                        data: row,
+                        value: "0",
+                        result: formatAddressSearchResult(row)
+                    }
+                });
+            },
+            formatItem: function (item) {
+                return formatAddressSearchDropdown(item);
+            }
+        }).result(function (e, item) {
+            
+            //$("#where").append("<p>selected " + format(item) + "</p>");
+        }); 
+        
+        function formatAddressSearchDropdown(item) {
+           var res = "";
+
+           if(item.BuildingName.length > 0)
+           {
+                res += item.BuildingName + "<br />";
+           }
+                      
+            res +=  item.Address + "<br />";
+            res +=  item.PostalCode + " " + item.City;
+            return res;
+        }  
+        
+        function formatAddressSearchResult(item) {
+           var res = "";
+
+           if(item.BuildingName.length > 0)
+           {
+                res += item.BuildingName + ", ";
+           }
+                      
+            res +=  item.Address + " ";
+            res +=  item.PostalCode + " " + item.City;
+            return res;
+        }      
+
+                   
+       // $('.minvalue').numeric();
+       // $('.maxvalue').numeric();        
+        $('.minvalue').focusout(function() {                                                                            
+            if(this.value.length == 0)
+            {
+                resetMinValue(this);
+            }
+        });
+
+        $('.minvalue').focus(function() { 
+            clearField(this, minDefaultText,true);
+        });
+
+        $('.maxvalue').focusout(function() {                                                                            
+            if(this.value.length == 0)
+            {
+                resetMaxValue(this);
+            }
+        });
+        
+        $('.maxvalue').focus(function() {          
+            clearField(this, maxDefaultText,true);
+        });                        
+
+        $('#ctl00_placeholdersidebar_0_txt_where').focusout(function() {                                                                            
+            if(this.value.length == 0)
+            {
+                this.value = whereDefaultText;
+                this.style.color = "rgb(150,150,150)";
+            }
+        });        
+
+                  
+        $('#ctl00_placeholdersidebar_0_txt_where').change(function() {                                                                            
+        });     
+                                
+        $('.enterEvent').keyup(function(e) {                        
+            if (e.keyCode == 13) {             
+             focusField = e.target.id + "";
+             
+             if(mapLoaded)
+            {
+                var result = $('#ctl00_placeholdersidebar_0_txt_where').val();        
+	            result = (result == whereDefaultText? "" : result);                
+                if(result.length > 0)
+                {
+                    var bounds = getPostalBounds(result, function(){                        
+                        map.fitBounds(this);
+                        if(SearchSidebarArea_getWhereValue().length > 0 || SearchSidebarArea_getAddressValue().length > 0)
+                        {
+                            //We have an area search. Enable the button "vis all boliger i kortudsnit"
+                            mapViewAllButton.show();
+                        }
+                    });                    
+                }
+                else
+                {
+                    if('ctl00_placeholdersidebar_0_txt_where' == e.target.id + ""){
+                        showDenmark();
+                    }
+                    else{
+                        doSearch();                    
+                    }
+                }
+            }
+            else
+            {
+                doSearch();
+            }
+             
+             return false;
+            }           
+        });
+                                       
+        
+        $("#ctl00_placeholdersidebar_0_chk_MembersBenefits").bind("click", function () { 
+            doSearch();
+        });
+
+        $("#ctl00_placeholdersidebar_0_chk_residenceType_Lejebolig").bind("click", function () { 
+            doSearch();
+        });
+
+        $("#ctl00_placeholdersidebar_0_chk_residenceType_LejeboligUngdomsbolig").bind("click", function () { 
+            doSearch();
+        });
+        
+         $("#ctl00_placeholdersidebar_0_chk_UnLimitedPeriod").bind("click", function () { 
+            doSearch();
+        });    
+        
+         $("#ctl00_placeholdersidebar_0_chk_TimeLimited").bind("click", function () { 
+            doSearch();
+        });    
+        
+         $("#ctl00_placeholdersidebar_0_chk_ShowOnlyOpenDay").bind("click", function () { 
+            doSearch();
+        });                 
+        
+        $("#ctl00_placeholdersidebar_0_chkList_FacilitiesResidence_chklst_CheckBoxList").find('input:checkbox').bind("click", function () { 
+            doSearch();
+        });        
+
+        $("#ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList").find('input:checkbox').bind("click", function () { 
+            doSearch();
+        });        
+       
+
+         
+        $("#lnk_InfoWhere").bind("click", function () {            
+             $('#ctl00_placeholdersidebar_0_popup_Help').modal();            
+        });   
+        
+          
+        $("#clearFields").bind("click", function () {            
+                var url = UrlListResult;
+                if(mapLoaded)
+                {
+                    url = UrlMapResult;
+                }
+                
+                
+                    document.location.href = url + "?showrented=1&showyouth=1&showlimitedperiod=1&showunlimitedperiod=1&showOpenDay=0";                
+                
+
+                return false;
+        });   
+
+        setOpenSelectionAreas('');
+
+    }); //end document ready
+
+    function resetMaxValue(obj)
+    {
+        obj.value = maxDefaultText;
+        obj.style.color = "rgb(150,150,150)";
+    }
+        
+    function resetMinValue(obj)
+    {
+        obj.value = minDefaultText;
+        obj.style.color = "rgb(150,150,150)";
+    }
+
+    function openCloseSelectionArea(selected)
+    {
+        var img = $(selected).children(":first-child");
+        var selectionArea = $(selected).parent().children('.selectionArea');
+        if (img.attr("src") == collapsed) {
+            img.attr("src", expanded)
+            selectionArea.show();
+            setColHeight();
+        } else {
+            img.attr("src", collapsed)
+            selectionArea.hide();
+            setColHeight();
+        }
+    }
+    
+     
+    function doSearch()
+    {
+        if(!mapLoaded)
+        {
+            doSearchOnList();
+        }
+        else
+        {
+            doSearchOnMap();
+        }     
+    }
+
+    // Get key from url.
+    function getValueFromQueryString(key) {
+        key = key.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+        var regex = new RegExp("[\\?&]" + key + "=([^&#]*)");
+        var qs = regex.exec(window.location.href);
+
+        if (qs == null)
+            return "";
+        else
+            return qs[1];
+    } 
+
+    
+    function doSearchOnList()
+    {
+        var sa = getValueFromQueryString('sa');
+        var url = UrlListResult + "?" + getQueryString().queryString;
+
+        if (sa != '') {
+            // Add search agent id to url if it already was in the url (edit mode).
+            url = url + '&sa=' + sa;
+        }
+
+        if (getValueFromQueryString('showdialog') == 1) {
+            // Remove showdialog value if found.
+            url = removeValueFromUrl(url, 'showdialog');
+            // Add showdialog with new value (keep dialog open).
+            url = url + "&showdialog=2";
+        } else if (getValueFromQueryString('showdialog') == 2) {
+            url = url + "&showdialog=2";
+        }
+
+        document.location.href = url;
+    } 
+
+    
+    function doSearchOnMap()
+    {
+        if(!mapLoaded)
+        {    
+            document.location.href = UrlMapResult + "?" + getQueryString().queryString;
+        }
+        else
+        {
+            searchOnMap();            
+            return false;
+        }
+    }       
+
+
+    function getWhere() {
+        return SearchSidebarArea_getWhereValue();
+    }
+
+    function getAddress() {
+        return $('#ctl00_placeholdersidebar_0_txt_Address').val();
+    }
+
+    function removeUnallowedChars(value) {
+        value = value.replace(";", ",");
+        value = value.replace("--", "-");
+        return value;
+    }
+
+    function getQueryString()
+    {	    
+        var querySearchSimple = new QuerySearchSimple();        
+        
+        //--- WHERE ---
+        var where = SearchSidebarArea_getWhereValue();      	    
+	    if(where.length > 0)
+	    {
+            where = removeUnallowedChars(where);
+		    querySearchSimple.queryString += "where=" + encodeURIComponent(where);
+            querySearchSimple.where = where;
+	    }        
+
+        //--- ADDRESS ---
+        var adr = $('#ctl00_placeholdersidebar_0_txt_Address').val();        	    
+	    if(adr.length > 0)
+	    {
+            adr = removeUnallowedChars(adr);
+		    querySearchSimple.queryString += "&adr=" + encodeURIComponent(adr);
+            querySearchSimple.freeSearch = adr;
+	    }        
+
+        //--- RENT ---
+        var rentmin = $('#ctl00_placeholdersidebar_0_txt_RentMin').val();        
+	    rentmin = (rentmin == minDefaultText? "" : rentmin);	    		
+	    
+        if(isNumber(rentmin))
+	    {
+		    querySearchSimple.queryString += "&rentmin=" + rentmin;
+            querySearchSimple.rentMin = rentmin;
+	    }
+        else{
+            resetMinValue($('#ctl00_placeholdersidebar_0_txt_RentMin')[0]);            
+        }
+
+        var rentmax = $('#ctl00_placeholdersidebar_0_txt_RentMax').val();        
+	    rentmax = (rentmax == maxDefaultText? "" : rentmax);
+	    if(isNumber(rentmax))
+	    {
+		    querySearchSimple.queryString += "&rentmax=" + rentmax;
+            querySearchSimple.rentMax  = rentmax;
+	    }
+        else{
+            resetMaxValue($('#ctl00_placeholdersidebar_0_txt_RentMax')[0]);
+        }
+
+        //--- ROOMS ---
+        var roomsmin = $('#ctl00_placeholdersidebar_0_txt_RoomsMin').val();        
+	    roomsmin = (roomsmin == minDefaultText? "" : roomsmin);	    		
+        if(isNumber(roomsmin))
+	    {
+		    querySearchSimple.queryString += "&roomsmin=" + roomsmin;
+            querySearchSimple.roomsMin = roomsmin;
+	    }else{
+            resetMinValue($('#ctl00_placeholdersidebar_0_txt_RoomsMin')[0]);
+        }
+
+        var roomsmax = $('#ctl00_placeholdersidebar_0_txt_RoomsMax').val();        
+	    roomsmax = (roomsmax == maxDefaultText? "" : roomsmax);
+	    if(isNumber(roomsmax))
+	    {
+		    querySearchSimple.queryString += "&roomsmax=" + roomsmax;
+            querySearchSimple.roomsMax = roomsmax;
+	    }else{
+           resetMaxValue($('#ctl00_placeholdersidebar_0_txt_RoomsMax')[0]);
+        }
+
+        //--- M2 ---
+        var m2min = $('#ctl00_placeholdersidebar_0_txt_M2Min').val();        
+	    m2min = (m2min == minDefaultText? "" : m2min);	    		
+	    if(isNumber(m2min))
+	    {
+		    querySearchSimple.queryString += "&m2min=" + m2min;
+            querySearchSimple.m2Min = m2min;
+	    }else{
+            resetMinValue($('#ctl00_placeholdersidebar_0_txt_M2Min')[0]);
+        }
+
+        var m2max = $('#ctl00_placeholdersidebar_0_txt_M2Max').val();        
+	    m2max = (m2max == maxDefaultText? "" : m2max);
+	    if(isNumber(m2max))
+	    {
+		    querySearchSimple.queryString += "&m2max=" + m2max;
+            querySearchSimple.m2Max = m2max;
+	    }else{
+            resetMaxValue($('#ctl00_placeholdersidebar_0_txt_M2Max')[0]);
+        }
+
+        //--- Floor ---
+        var floormin = $('#ctl00_placeholdersidebar_0_ddlFloorMin_ddl_DropDown').val();
+	    floormin = (floormin == minDefaultText? "" : floormin);
+        
+        // Empty ddl value has value -2 in sitecore.
+        // Only add to query string if floor >= -1.
+	    if(isNumber(floormin) || (isNegativeNumber(floormin) && floormin != -2))
+	    {
+		    querySearchSimple.queryString += "&floormin=" + floormin;
+            querySearchSimple.floorMin = floormin;
+	    }else{
+            resetMinValue($('#ctl00_placeholdersidebar_0_ddlFloorMin_ddl_DropDown')[0]);
+        }
+
+        var floormax = $('#ctl00_placeholdersidebar_0_ddlFloorMax_ddl_DropDown').val();
+	    floormax = (floormax == maxDefaultText? "" : floormax);
+	    // Empty ddl value has value -2 in sitecore.
+        // Only add to query string if floor >= -1.
+        if(isNumber(floormax) || (isNegativeNumber(floormax) && floormax != -2))
+	    {
+		    querySearchSimple.queryString += "&floormax=" + floormax;
+            querySearchSimple.floorMax = floormax;
+	    }else{
+            resetMaxValue($('#ctl00_placeholdersidebar_0_ddlFloorMax_ddl_DropDown')[0]);
+        }
+
+        //--- Members ---
+        if($('#ctl00_placeholdersidebar_0_chk_MembersBenefits').is(':checked'))
+        {
+            querySearchSimple.queryString += "&membersonly=1";
+            querySearchSimple.membersOnly = true;
+        }
+
+
+        //--- Residence type ---
+        if($('#ctl00_placeholdersidebar_0_chk_residenceType_Lejebolig').is(':checked'))
+        {            
+            querySearchSimple.queryString += "&showrented=1";
+            querySearchSimple.showRentedHousing = true;
+        }   
+        else
+        {
+            querySearchSimple.queryString += "&showrented=0";
+            querySearchSimple.showRentedHousing = false;
+        }             
+
+        if($('#ctl00_placeholdersidebar_0_chk_residenceType_LejeboligUngdomsbolig').is(':checked'))
+        {            
+            querySearchSimple.queryString += "&showyouth=1";   
+            querySearchSimple.showYouthHousing = true;         
+        } 
+        else
+        {
+            querySearchSimple.queryString += "&showyouth=0";   
+            querySearchSimple.showYouthHousing = false;
+        }
+        
+
+        //--- Advert Time limt period
+        if($('#ctl00_placeholdersidebar_0_chk_TimeLimited').is(':checked'))
+        {                    
+            querySearchSimple.queryString += "&showlimitedperiod=1";
+            querySearchSimple.ShowTimeLimitedPeriod = true;
+        }
+        else
+        {
+            querySearchSimple.queryString += "&showlimitedperiod=0";
+            querySearchSimple.ShowTimeLimitedPeriod = false;
+        } 
+        
+        if($('#ctl00_placeholdersidebar_0_chk_UnLimitedPeriod').is(':checked'))
+        {            
+            querySearchSimple.queryString += "&showunlimitedperiod=1";
+            querySearchSimple.ShowUnlimitedPeriod = true;
+        }          
+        else
+        {
+            querySearchSimple.queryString += "&showunlimitedperiod=0";
+            querySearchSimple.ShowUnlimitedPeriod = false;
+        }
+        
+        if($('#ctl00_placeholdersidebar_0_chk_ShowOnlyOpenDay').is(':checked'))
+        {            
+            querySearchSimple.queryString += "&showOpenDay=1";
+            querySearchSimple.showOpenDay = true;
+        }          
+        else
+        {
+            querySearchSimple.queryString += "&showOpenDay=0";
+            querySearchSimple.showOpenDay = false;
+        }              
+        
+
+        //--- facilities ---
+        var facilitiesres = getFacilities('ctl00_placeholdersidebar_0_chkList_FacilitiesResidence_chklst_CheckBoxList');
+        if(facilitiesres.length > 0)
+        {
+            querySearchSimple.queryString += "&facilitiesres=" + facilitiesres;
+            querySearchSimple.residenceFacilityList = facilitiesres;
+        }
+
+        var facilitiesbuild = getFacilities('ctl00_placeholdersidebar_0_chkList_FacilitiesBuilding_chklst_CheckBoxList');
+        if(facilitiesbuild.length > 0)
+        {
+            querySearchSimple.queryString += "&facilitiesbuild=" + facilitiesbuild;
+            querySearchSimple.buildingFacilityList = facilitiesbuild;
+        }
+
+        if(focusField.length > 0)
+        {
+            querySearchSimple.queryString += "&focus=" + focusField;
+        }
+
+        //Get opened selection areas
+        var openAreas = getOpenSelectionAreas();
+        if(openAreas.length > 0)
+        {
+            querySearchSimple.queryString += "&area=" + openAreas;
+        }
+
+        if(100 > 0){
+            querySearchSimple.queryString += "&pagesize=" + 100 + "";
+        }
+
+
+
+        if(mapLoaded)
+        {                       
+            querySearchSimple.zoom = map.getZoom();
+            querySearchSimple.queryString += "&z=" + querySearchSimple.zoom;
+
+            var mapBounds = map.getBounds();
+            var sw = mapBounds.getSouthWest();
+            var ne = mapBounds.getNorthEast();
+            querySearchSimple.xMax = sw.lat();
+            querySearchSimple.queryString += "&swlat=" + querySearchSimple.xMax;
+
+            querySearchSimple.xMin = sw.lng();   
+            querySearchSimple.queryString += "&swlng=" + querySearchSimple.xMin;
+
+            querySearchSimple.yMax = ne.lat();
+            querySearchSimple.queryString += "&nelat=" + querySearchSimple.yMax;
+
+            querySearchSimple.yMin = ne.lng();
+            querySearchSimple.queryString += "&nelng=" + querySearchSimple.yMin;            
+        }
+
+        lastRequestedQuery = querySearchSimple.queryString;
+        return querySearchSimple;
+    }
+
+    //--- getter functions ---
+    function SearchSidebarArea_getWhereValue()
+    {
+        //--- WHERE ---
+        var where = $('#ctl00_placeholdersidebar_0_txt_where').val();        
+	    where = (where == whereDefaultText? "" : where);	    		
+
+        return  where;	    
+    }
+
+    function SearchSidebarArea_getAddressValue()
+    {
+        return $('#ctl00_placeholdersidebar_0_txt_Address').val();        	    	    
+    }     
+    
+    function SearchSidebarArea_clearWhereAndAddressField()
+    {
+        $('#ctl00_placeholdersidebar_0_txt_Address').val("");
+        var where = $('#ctl00_placeholdersidebar_0_txt_where');
+        where.val(whereDefaultText);
+        where.css("color", "rgb(150,150,150)");        
+
+    }
+
+    function getFacilities(facilityControlID, urlParameterName)
+    {
+        //enable or disable input fields witin in each set of rules
+			    var selectionArea = $("#" + facilityControlID);
+                var checkboxes = $(selectionArea).find('input[type=checkbox]');
+			    
+                var res = "";                
+                $.each(checkboxes, function () {			        
+                    if($(this).is(':checked'))
+                    {
+                        res += $(this).parents("span")[0].id + ",";                                          
+                    }                    
+			    });      
+
+                if(res.length > 0)
+                {
+                    res = res.substring(0, res.length-1);
+                }
+
+                return res;
+    }    
+    
+    function getOpenSelectionAreas()
+    {        
+        var res="";
+        $.each($('.selectionArea'), function() {       
+            
+            // Small hack: a1 is reversed. residence type is visible at first load.
+            if($(this).css('display') == 'block' && this.id != "a1")
+            {
+                res += this.id + ",";                
+            }
+            else if ($(this).css('display') == 'none' && this.id == "a1")
+            {
+                res += this.id + ",";                
+            }
+        });
+
+        if(res.length>0)
+        {
+            //remove the last ,
+            res = res.substring(0,res.length-1);
+        }
+
+        return res;
+    }         
+
+    function setOpenSelectionAreas(val){
+        var area = val.split(',');
+
+        for(var i=0; i<area.length; i++)
+        {
+            var obj = $("#" + area[i]).siblings(".mainArea");
+            openCloseSelectionArea(obj);
+        }
+    }
+
+    // Used when user enter city and zip that does not match together.
+    // The page simply clears the where textfield and shows results.
+    function clearWhereTextbox() {
+        $('#ctl00_placeholdersidebar_0_txt_where').val('');
+    }
+</script><div></div>
+</div>
+<div class="centerkolonne_mr" id="colCenter">
+<div style="margin-top:1px;">
+<script type="text/javascript">
+
+    var validateList = [
+	    ["ctl00_placeholdercontent_0_residenceAgent_tbxResidenceAgentName", 0, true, false],
+    ];
+
+    $(document).ready(function () {
+        // Default hide dialog.
+        $(".residenceAgent").css("display", "none");
+        $("#deleteResidenceAgentTD").css("display", "none");
+
+        if (getValueFromQueryString('sa') != '') {
+            // Edit mode.
+            $("#deleteResidenceAgentTD").css("display", "block");
+            $(".residenceAgent").css("display", "block");
+        } else if (getValueFromQueryString('showdialog') == 1) {
+            // Slide in the dialog. 'Opret boligagent' was clicked.
+            showResidenceAgentSlideEffect();
+        } else if (getValueFromQueryString('showdialog') == 2) {
+            // Show the dialog . 'Vis liste' was clicked.
+            $(".residenceAgent").css("display", "block");
+        }
+
+        // Save button. Method will save the residence agent.
+        $("#ctl00_placeholdercontent_0_residenceAgent_btnSaveShadow").bind("click", function () {
+            var res = submitForm();
+
+            if (res == true) {
+                saveResidenceAgent();
+            }
+            else {
+                // Input error.
+                $('.searchagentValidator').css('border', 'solid 2px #8b0e13');
+            }
+
+        });
+
+        // Saved popup ok button (after residence agent has been saved).
+        $("#ctl00_placeholdercontent_0_residenceAgent_btnSaveOKShadow").bind("click", function () {
+            document.getElementById('ctl00_placeholdercontent_0_residenceAgent_tbxResidenceAgentName').value = '';
+            hideResidenceAgentSlideEffect();
+
+            var url = UrlListResult + "?" + getQueryString().queryString;
+            url = removeValueFromUrl(url, 'sa');
+            url = removeValueFromUrl(url, 'showdialog');
+            document.location.replace = url;
+        });
+
+        // Delete button. Method will show confirm popup message.
+        $("#ctl00_placeholdercontent_0_residenceAgent_btnDeleteShadow").bind("click", function () {
+            $('#ctl00_placeholdercontent_0_residenceAgent_popupResidenceAgentDelete').modal();
+        });
+
+        // Delete popup ok button. Method will delete the residence agent.
+        $("#ctl00_placeholdercontent_0_residenceAgent_btnDeleteResidenceAgentOKShadow").bind("click", function () {
+            deleteResidenceAgent();
+        });
+    });
+
+     // Cancel button. Method will hide the residence agent dialog.
+     function cancelResidenceAgentDialog() {
+         clearError();
+         document.getElementById("errorBox").style.display = "none";
+         $('.searchagentValidator').css('border','2px gray');
+         
+         hideResidenceAgentSlideEffect();
+
+         var url = removeValueFromUrl(document.location.href, 'sa');
+         url = removeValueFromUrl(url, 'showdialog');
+         document.location.replace = url;
+     }
+
+     function hideResidenceAgentSlideEffect() {
+         $(".residenceAgent").slideUp("fast");
+     }
+
+     function showResidenceAgentSlideEffect() {
+         $(".residenceAgent").slideDown("fast");
+     }
+
+     function removeValueFromUrl(url, key) {
+         var urlparts = url.split('?');
+         if (urlparts.length >= 2) {
+             var prefix = encodeURIComponent(key) + '=';
+             var pars = urlparts[1].split(/[&;]/g);
+             for (var i = pars.length; i-- > 0; )
+                 if (pars[i].indexOf(prefix, 0) == 0)
+                     pars.splice(i, 1);
+             if (pars.length > 0)
+                 return urlparts[0] + '?' + pars.join('&');
+             else
+                 return urlparts[0];
+         }
+         else
+             return url;
+     }
+
+     // Save residence agent by AJAX call to server.
+     function saveResidenceAgent() {
+         var tbxAgentName = document.getElementById('ctl00_placeholdercontent_0_residenceAgent_tbxResidenceAgentName').value;
+         var address = getAddress(); // Search_SearchSidebarArea.ascx;
+         var where = getWhere(); // Search_SearchSidebarArea.ascx;
+
+         // Residence agent must have a name and where and address must have a value.
+         if (tbxAgentName == '' || (address == '' && where == '')) {
+             $('.searchagentValidator').css('border', 'solid 2px #8b0e13');
+             document.getElementById("errorBox").style.display = "block";
+            return;
+         }
+
+         var sa = getValueFromQueryString('sa');
+         var url = UrlListResult + "?" + getQueryString().queryString;
+
+         if (sa != '') {
+             // Add search agent id to url if it already was in the url (edit mode).
+             url = url + '&sa=' + sa;
+         }
+
+         url = url + '&name=' + tbxAgentName;
+
+         $.ajax({
+             type: "POST",
+             contentType: "application/json; charset=utf-8",
+             url: "/Services/SearchAgentService.asmx/SaveResidenceAgent",
+             data: "{urlString:'" + url + "'}",
+             success: function (msg) {
+                 if (msg.d.ResidenceAgentLimitHasBeenReached) {
+                     $('#ctl00_placeholdercontent_0_residenceAgent_popupResidenceAgentError').modal();
+                 }
+                 else {
+                     $('#ctl00_placeholdercontent_0_residenceAgent_popupResidenceAgentSaved').modal();
+                 }
+             }
+         });
+     }
+
+     // Delete residence agent by AJAX call to server.
+     function deleteResidenceAgent() {
+         var sa = getValueFromQueryString('sa');
+
+         if (sa != '') {
+             $.ajax({
+                 type: "POST",
+                 contentType: "application/json; charset=utf-8",
+                 url: "/Services/SearchAgentService.asmx/DeleteSearchAgent",
+                 data: "{searchAgentid:'" + sa + "'}",
+                 success: function (msg) {
+                     hideResidenceAgentSlideEffect();
+                     document.getElementById('ctl00_placeholdercontent_0_residenceAgent_tbxResidenceAgentName').value = '';
+                     
+                     var url = removeValueFromUrl(document.location.href, 'sa');
+                     url = removeValueFromUrl(url, 'showdialog');
+                     document.location.replace = url;
+                 },
+                 error: function (msg) {
+
+                 }
+             });
+         }
+     }
+
+     // Method will remove a value from the URL (based on a value key).
+     function removeValueFromQueryString(key) {
+         var url = $(location).attr('href');
+         var urlparts = url.split('?');
+
+         if (urlparts.length >= 2) {
+             var prefix = encodeURIComponent(key) + '=';
+             var pars = urlparts[1].split(/[&;]/g);
+
+             for (var i = pars.length; i-- > 0; ) {
+                 if (pars[i].indexOf(prefix, 0) == 0) {
+                     pars.splice(i, 1);
+                 }
+             }
+
+             if (pars.length > 0) {
+                 var t = urlparts[0] + '?' + pars.join('&');
+                 window.location.replace(urlparts[0] + '?' + pars.join('&'));
+             } else {
+                 window.location.replace(urlparts[0]);
+             }
+         }
+     }
+
+    // Method will remove a value from the URL (based on a value key).
+    function removeValueFromQueryString2(keys) {
+        var url = $(location).attr('href');
+        var urlparts = url.split('?');
+
+        if (urlparts.length >= 2) {
+            var url;
+
+            for (i = 0; i < keys.length; i++) {
+                var prefix = encodeURIComponent(keys[i]) + '=';
+                var pars = urlparts[1].split(/[&;]/g);
+
+                for (var j = pars.length; j-- > 0; ) {
+                    if (pars[j].indexOf(prefix, 0) == 0) {
+                        pars.splice(j, 1);
+                    }
+                }
+
+                if (pars.length > 0) {
+                    var t = urlparts[0] + '?' + pars.join('&');
+                    url = url + urlparts[0] + '?' + pars.join('&');
+                } else {
+                    url = url + urlparts[0];
+                }
+            }
+
+            window.location.replace(url);
+        }
+    }
+
+     // Method will get a value from the URL (based on a value key).
+     function getValueFromQueryString(key) {
+         key = key.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+         var regex = new RegExp("[\\?&]" + key + "=([^&#]*)");
+         var qs = regex.exec(window.location.href);
+
+         if (qs == null) {
+             return "";
+         } else {
+             return qs[1];
+         }
+     }
+
+</script>
+<div style="margin-top: 21px;">
+<div id="errorBox">
+<p>
+</p>
+<h2>Ugyldig indtasting</h2>
+<p>
+</p>
+<p>Et eller flere felter er udfyldt forkert. De er markeret med rødt.</p>
+</div>
+<div class="formSectionStart residenceAgent">
+<b>Rediger boligagent:</b>
+<br/>
+<br/>
+<table>
+<tr>
+<td rowspan="2">
+<img src="../../gfx/boligagent2.ashx.gif" style="vertical-align: bottom;"/>
+</td>
+<td style="vertical-align:bottom; padding-left: 10px;">
+                    Boligagentens navn:
+                </td>
+</tr>
+<tr>
+<td style="vertical-align:middle; padding-left: 10px;">
+<input class="input200" id="ctl00_placeholdercontent_0_residenceAgent_tbxResidenceAgentName" maxlength="19" name="ctl00$placeholdercontent_0$residenceAgent$tbxResidenceAgentName" type="text" value="Kbh lejligheder"/>
+</td>
+<td style="vertical-align:middle; padding-left: 10px;">
+<div class="ButtonSubmit"><a href="#" id="ctl00_placeholdercontent_0_residenceAgent_btnSaveShadow">Gem</a></div>
+</td>
+<td id="deleteResidenceAgentTD" style="vertical-align: middle;">
+<div class="ButtonNormal"><a href="#" id="ctl00_placeholdercontent_0_residenceAgent_btnDeleteShadow">Slet</a></div>
+</td>
+<td style="vertical-align:middle; padding-left: 2px;">
+<div class="ButtonNormal"><a href="javascript:cancelResidenceAgentDialog();" id="lnkCancel" style="display: inline-block;">Annuller</a></div>
+</td>
+</tr>
+</table>
+<br/>
+</div>
+</div>
+<div class="noDisplay" id="ctl00_placeholdercontent_0_residenceAgent_popupResidenceAgentSaved">
+<div class="outerpair1"><div class="outerpair2"><div class="shadowbox"><div class="innerbox"><h1>Boligagenten er gemt</h1>
+<p>Din boligagent er nu gemt, og du vil få tilsendt en e-mail og/eller SMS, når der er nye boligannoncer, der matcher.</p>
+<div class="formSectionSubmit">
+<div class="ButtonSubmit simplemodal-close"><a href="#" id="ctl00_placeholdercontent_0_residenceAgent_btnSaveOKShadow">Ok</a></div>
+</div>
+</div></div></div></div></div>
+<div class="noDisplay" id="ctl00_placeholdercontent_0_residenceAgent_popupResidenceAgentError">
+<div class="outerpair1"><div class="outerpair2"><div class="shadowbox"><div class="innerbox"><h1>Boligagenten blev ikke gemt</h1>
+<p>Du kan max. oprette 10 boligagenter.</p>
+<p>Ønsker du at gemme denne søgning, skal du først slette en af dine andre boligagenter.</p>
+<div class="formSectionSubmit">
+<div class="ButtonSubmit simplemodal-close"><a href="#" id="ctl00_placeholdercontent_0_residenceAgent_ctl01">Ok</a></div>
+</div>
+</div></div></div></div></div>
+<div class="noDisplay" id="ctl00_placeholdercontent_0_residenceAgent_popupResidenceAgentDelete">
+<div class="outerpair1"><div class="outerpair2"><div class="shadowbox"><div class="innerbox"><h1>Bekræft sletning af boligagenten</h1>
+<p>Er du sikker på, at du vil slette boligagenten? <br/>Du kan ikke fortryde, når først den er slettet.</p>
+<div class="formSectionSubmit">
+<div class="ButtonSubmit simplemodal-close"><a href="#" id="ctl00_placeholdercontent_0_residenceAgent_btnDeleteResidenceAgentOKShadow">Slet</a></div>
+<div class="ButtonNormal simplemodal-close"><a href="#" id="ctl00_placeholdercontent_0_residenceAgent_btnDeleteCancel">Annuller</a></div>
+</div>
+</div></div></div></div></div>
+<div id="ctl00_placeholdercontent_0_FbnTable1_panel_TabelHeader">
+<div id="gridPagesTop">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="gridLabelLeftTop">
+<div><span id="ctl00_placeholdercontent_0_FbnTable1_lab_ResidencesFoundTop">39 Resultater</span></div>
+</td>
+<td width="90%">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><img alt="" src="/gfx/kontrolbjaelke-ikon-pil-venstre-d.gif" style="border-width:0px;"/> </td><td><span>1</span></td><td><img alt="" src="/gfx/kontrolbjaelke-ikon-pil-hoejre-d.gif" style="border-width:0px;"/> </td>
+</tr>
+</table>
+</td>
+<td class="gridLabelRightTop">
+<div><a href="/ledigeboliger/liste.aspx?sa=83328&amp;where=1000-2400,%202800,%202820,%202840,%202900,%202920&amp;m2min=70&amp;rentmax=15000&amp;roomsmin=2&amp;showrented=1&amp;showyouth=0&amp;showOpenDay=0&amp;showlimitedperiod=0&amp;showunlimitedperiod=1&amp;page=1&amp;pagesize=10" id="ctl00_placeholdercontent_0_FbnTable1_hrefShowResultsPerPage"><span id="ctl00_placeholdercontent_0_FbnTable1_lbt_ShowResultsPerPageTop">Vis 10 resultater pr. side</span></a></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="grid">
+<div>
+<table border="0" cellspacing="0" class="gridTable" id="GridView_Results" rules="all" style="border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+<tr class="headerstyle">
+<th align="left" class="nosorting" scope="column" style="width:90px;padding-left:0;padding-right:0;"></th><th align="left" scope="column" style="width:170px;"><a href="/ledigeboliger/liste.aspx?sa=83328&amp;where=1000-2400,%202800,%202820,%202840,%202900,%202920&amp;m2min=70&amp;rentmax=15000&amp;roomsmin=2&amp;showrented=1&amp;showyouth=0&amp;showOpenDay=0&amp;showlimitedperiod=0&amp;showunlimitedperiod=1&amp;page=1&amp;pagesize=100&amp;sortkey=Address1&amp;sortdir=asc">Adresse</a></th><th align="left" scope="column" style="width:30px;"><a href="/ledigeboliger/liste.aspx?sa=83328&amp;where=1000-2400,%202800,%202820,%202840,%202900,%202920&amp;m2min=70&amp;rentmax=15000&amp;roomsmin=2&amp;showrented=1&amp;showyouth=0&amp;showOpenDay=0&amp;showlimitedperiod=0&amp;showunlimitedperiod=1&amp;page=1&amp;pagesize=100&amp;sortkey=Rooms&amp;sortdir=asc">Vær.</a></th><th align="left" scope="column" style="width:40px;"><a href="/ledigeboliger/liste.aspx?sa=83328&amp;where=1000-2400,%202800,%202820,%202840,%202900,%202920&amp;m2min=70&amp;rentmax=15000&amp;roomsmin=2&amp;showrented=1&amp;showyouth=0&amp;showOpenDay=0&amp;showlimitedperiod=0&amp;showunlimitedperiod=1&amp;page=1&amp;pagesize=100&amp;sortkey=m2&amp;sortdir=asc">Kvm</a></th><th align="left" scope="column" style="width:85px;"><a href="/ledigeboliger/liste.aspx?sa=83328&amp;where=1000-2400,%202800,%202820,%202840,%202900,%202920&amp;m2min=70&amp;rentmax=15000&amp;roomsmin=2&amp;showrented=1&amp;showyouth=0&amp;showOpenDay=0&amp;showlimitedperiod=0&amp;showunlimitedperiod=1&amp;page=1&amp;pagesize=100&amp;sortkey=RentMonthly&amp;sortdir=asc">Husleje/aconto</a></th><th align="left" scope="column" style="width:85px;"><a href="/ledigeboliger/liste.aspx?sa=83328&amp;where=1000-2400,%202800,%202820,%202840,%202900,%202920&amp;m2min=70&amp;rentmax=15000&amp;roomsmin=2&amp;showrented=1&amp;showyouth=0&amp;showOpenDay=0&amp;showlimitedperiod=0&amp;showunlimitedperiod=1&amp;page=1&amp;pagesize=100&amp;sortkey=AvailableDate&amp;sortdir=asc">Ledig fra</a></th><th align="left" scope="column" style="width:95px;"><a href="/ledigeboliger/liste.aspx?sa=83328&amp;where=1000-2400,%202800,%202820,%202840,%202900,%202920&amp;m2min=70&amp;rentmax=15000&amp;roomsmin=2&amp;showrented=1&amp;showyouth=0&amp;showOpenDay=0&amp;showlimitedperiod=0&amp;showunlimitedperiod=1&amp;page=1&amp;pagesize=100&amp;sortkey=WaitCompanyID&amp;sortdir=asc"></a></th>
+</tr>
+<tr aid="27101" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27101&amp;s=2"><img src="/FBNImages/e9b6c35a-c742-4c13-b292-e12d5fad9f5b_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=27101&amp;s=2" style="color:black;" title="Bassinhusene"><b>Axel Heides Gade  10, 1. tv</b><br/>2300 København S</a></td><td style="text-align:center;">2</td><td style="text-align:center;">91</td><td style="text-align:right;">13.270,83 kr.<br/>1.120,83 kr.</td><td style="text-align:right;">01-08-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Sampension" src="/FBNImages/08cd73a5-d4f6-465c-9804-76f8d3ab5484.png" title="Sampension"/></td>
+</tr><tr aid="27087" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27087&amp;s=2"><img src="/FBNImages/ad5608d2-50fa-427d-a513-d06741daa866_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=27087&amp;s=2" style="color:black;" title="Tøjhus Have"><b>Myggenæsgade  7, st. lejl. 3</b><br/>2300 København S</a></td><td style="text-align:center;">4</td><td style="text-align:center;">132</td><td style="text-align:right;">14.092,31 kr.<br/>840,00 kr.</td><td style="text-align:right;">01-08-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pædagogernes Pensionskasse" src="/FBNImages/3ca5e362-fac3-4171-adc1-682b74e9155e.gif" title="Pædagogernes Pensionskasse"/></td>
+</tr><tr aid="27072" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27072&amp;s=2"><img src="/FBNImages/7caefb12-a499-43f1-8b38-0f88a740c251_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=27072&amp;s=2" style="color:black;" title="Provianthuset / Sandkaj"><b>Göteborg Plads  15, 4. th.</b><br/>2150 Nordhavn</a></td><td style="text-align:center;">2</td><td style="text-align:center;">70</td><td style="text-align:right;">11.916,67 kr.<br/>800,00 kr.</td><td style="text-align:right;">01-09-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pensamlogo" src="/FBNImages/81cf9311-8d18-42bd-912f-5e56ba705b45.gif" title="Pensamlogo"/></td>
+</tr><tr aid="27064" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27064&amp;s=2"><img src="/FBNImages/o_1ariqhm3216dp1ktt18p1jhl1l0se_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=27064&amp;s=2" style="color:black;" title="Marmorbyen etape 2 Vest"><b>Marmorvej   7B, 3. th.</b><br/>2100 København Ø</a></td><td style="text-align:center;">2</td><td style="text-align:center;">93</td><td style="text-align:right;">12.865,00 kr.<br/>1.050,00 kr.</td><td style="text-align:right;">15-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pensam" src="/FBNImages/7e49fce7-f04f-424f-89e7-dc132f3d7355.gif" title="Pensam"/></td>
+</tr><tr aid="27035" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27035&amp;s=2"><img src="/FBNImages/7caefb12-a499-43f1-8b38-0f88a740c251_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=27035&amp;s=2" style="color:black;" title="Provianthuset / Sandkaj"><b>Göteborg Plads  11, 3. th.</b><br/>2150 Nordhavn</a></td><td style="text-align:center;">2</td><td style="text-align:center;">70</td><td style="text-align:right;">11.900,00 kr.<br/>800,00 kr.</td><td style="text-align:right;">01-09-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pensamlogo" src="/FBNImages/81cf9311-8d18-42bd-912f-5e56ba705b45.gif" title="Pensamlogo"/></td>
+</tr><tr aid="27034" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27034&amp;s=2"><img src="/FBNImages/7caefb12-a499-43f1-8b38-0f88a740c251_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=27034&amp;s=2" style="color:black;" title="Provianthuset / Sandkaj"><b>Antwerpengade  6, st.</b><br/>2150 Nordhavn</a></td><td style="text-align:center;">2</td><td style="text-align:center;">89</td><td style="text-align:right;">11.792,50 kr.<br/>1.000,00 kr.</td><td style="text-align:right;">01-09-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pensamlogo" src="/FBNImages/81cf9311-8d18-42bd-912f-5e56ba705b45.gif" title="Pensamlogo"/></td>
+</tr><tr aid="27032" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=27032&amp;s=2"><img src="/FBNImages/d0a6b197-fc53-489f-87f4-56cac5fa8419_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=27032&amp;s=2" style="color:black;" title="Marmorbyen etape 1 Øst"><b>Marmorvej  41, st. th.</b><br/>2100 København Ø</a></td><td style="text-align:center;">3</td><td style="text-align:center;">95</td><td style="text-align:right;">14.636,20 kr.<br/>1.050,00 kr.</td><td style="text-align:right;">01-08-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pensam" src="/FBNImages/7e49fce7-f04f-424f-89e7-dc132f3d7355.gif" title="Pensam"/></td>
+</tr><tr aid="26999" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26999&amp;s=2"><img src="/FBNImages/f1dfe27a-02e6-4161-8d92-931e75f4a61e_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=26999&amp;s=2" style="color:black;" title="Margretheholmen"><b>Margretheholmsvej  40, 1. tv</b><br/>1432 København K</a></td><td style="text-align:center;">4</td><td style="text-align:center;">92</td><td style="text-align:right;">12.429,94 kr.<br/>960,00 kr.</td><td style="text-align:right;">01-09-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="PKA_Logo_2014" src="/FBNImages/23faf18d-8f50-4b55-97e1-060dac0f8372.png" title="PKA_Logo_2014"/></td>
+</tr><tr aid="26960" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26960&amp;s=2"><img src="/FBNImages/o_1biio16ne15dnjkh1j9hp61vu5a_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=26960&amp;s=2" style="color:black;" title="H.C. Andersens Boulevard 41, 2. th."><b>H.C. Andersens Boulevard  41, 2. th</b><br/>1553 København V</a></td><td style="text-align:center;">2</td><td style="text-align:center;">125</td><td style="text-align:right;">14.526,68 kr.<br/>2.100,00 kr.</td><td style="text-align:right;">01-08-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;" title="Advokatpartnerselskabet Jordan|Løgstrup">Advokatpartne...</td>
+</tr><tr aid="26879" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26879&amp;s=2"><img src="/FBNImages/50d601f6-de80-4dc5-9d07-95c0e1ca5b57_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=26879&amp;s=2" style="color:black;" title="Amager Strandpark Ask"><b>Krimsvej  11F, 4. mf.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">105</td><td style="text-align:right;">14.903,50 kr.<br/>1.200,00 kr.</td><td style="text-align:right;">01-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Lærernes Pension" src="/FBNImages/488b7445-35fe-4400-a6b5-b06619eb71cb.png" title="Lærernes Pension"/></td>
+</tr><tr aid="26877" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26877&amp;s=2"><img src="/FBNImages/60461556-5cdc-4426-a5eb-90056bdd6bd3_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=26877&amp;s=2" style="color:black;" title="Amager Strandpark Ask"><b>Krimsvej  11F, 8. th.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">101</td><td style="text-align:right;">14.478,50 kr.<br/>1.100,00 kr.</td><td style="text-align:right;">01-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Lærernes Pension" src="/FBNImages/488b7445-35fe-4400-a6b5-b06619eb71cb.png" title="Lærernes Pension"/></td>
+</tr><tr aid="26876" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26876&amp;s=2"><img src="/FBNImages/611aa6d9-34ce-47d7-a150-3253d99cb389_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=26876&amp;s=2" style="color:black;" title="Amager Strandpark Ask"><b>Krimsvej  11H, 2. tv.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">100</td><td style="text-align:right;">14.628,50 kr.<br/>850,00 kr.</td><td style="text-align:right;">01-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Lærernes Pension" src="/FBNImages/488b7445-35fe-4400-a6b5-b06619eb71cb.png" title="Lærernes Pension"/></td>
+</tr><tr aid="26873" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26873&amp;s=2"><img src="/FBNImages/e54134cf-b35b-423e-814a-9f607ad3a8e8_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=26873&amp;s=2" style="color:black;" title="Amager Strandpark Ask"><b>Krimsvej  11G, 1. th.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">107</td><td style="text-align:right;">14.478,50 kr.<br/>1.200,00 kr.</td><td style="text-align:right;">01-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Lærernes Pension" src="/FBNImages/488b7445-35fe-4400-a6b5-b06619eb71cb.png" title="Lærernes Pension"/></td>
+</tr><tr aid="26857" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26857&amp;s=2"><img src="/FBNImages/e9b6c35a-c742-4c13-b292-e12d5fad9f5b_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=26857&amp;s=2" style="color:black;" title="Bassinhusene"><b>Poul Hartlings Gade  4, 5. th</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">94</td><td style="text-align:right;">14.945,83 kr.<br/>1.380,00 kr.</td><td style="text-align:right;">01-08-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Sampension" src="/FBNImages/08cd73a5-d4f6-465c-9804-76f8d3ab5484.png" title="Sampension"/></td>
+</tr><tr aid="26828" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26828&amp;s=2"><img src="/FBNImages/c8b33d59-25b1-4913-959e-8a5ed2a6342f_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=26828&amp;s=2" style="color:black;" title="Glentevej 38-54"><b>Glentevej  54 , 1. tv</b><br/>2400 København NV</a></td><td style="text-align:center;">5</td><td style="text-align:center;">122</td><td style="text-align:right;">14.218,80 kr.<br/>966,00 kr.</td><td style="text-align:right;">01-08-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="PKA_Logo_2014" src="/FBNImages/23faf18d-8f50-4b55-97e1-060dac0f8372.png" title="PKA_Logo_2014"/></td>
+</tr><tr aid="26803" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26803&amp;s=2"><img src="/FBNImages/6370364c-5b9f-4aa6-b26c-0a1e4c5b22d3_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=26803&amp;s=2" style="color:black;" title="Bassinhusene"><b>Axel Heides Gade  12, 1. th</b><br/>2300 København S</a></td><td style="text-align:center;">2</td><td style="text-align:center;">90</td><td style="text-align:right;">13.125,00 kr.<br/>900,00 kr.</td><td style="text-align:right;">15-08-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Sampension" src="/FBNImages/08cd73a5-d4f6-465c-9804-76f8d3ab5484.png" title="Sampension"/></td>
+</tr><tr aid="26791" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26791&amp;s=2"><img src="/FBNImages/859c471e-3c34-43f5-80b7-d62c8e64d3a2_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=26791&amp;s=2" style="color:black;" title="Schades Have"><b>Amagerfælledvej  114, 3. TV</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">97</td><td style="text-align:right;">13.471,33 kr.<br/>1.100,00 kr.</td><td style="text-align:right;">01-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="AP Pension" src="/FBNImages/48b55103-a403-44e3-8021-8336beeb8f4f.gif" title="AP Pension"/></td>
+</tr><tr aid="26768" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=26768&amp;s=2"><img src="/FBNImages/e9b6c35a-c742-4c13-b292-e12d5fad9f5b_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=26768&amp;s=2" style="color:black;" title="Bassinhusene"><b>Axel Heides Gade  12, 5. th</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">90</td><td style="text-align:right;">14.425,96 kr.<br/>1.010,00 kr.</td><td style="text-align:right;">15-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Sampension" src="/FBNImages/08cd73a5-d4f6-465c-9804-76f8d3ab5484.png" title="Sampension"/></td>
+</tr><tr aid="25252" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25252&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=25252&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2B, 4. TH.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">96</td><td style="text-align:right;">14.000,00 kr.<br/>800,00 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr><tr aid="25251" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25251&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=25251&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2B, 3. TH.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">96</td><td style="text-align:right;">13.800,00 kr.<br/>460,00 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr><tr aid="25025" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25025&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=25025&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2C, 5. TV.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">98</td><td style="text-align:right;">14.291,67 kr.<br/>1.010,00 kr.</td><td style="text-align:right;">01-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr><tr aid="25024" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25024&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=25024&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2D, 4. TV.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">87</td><td style="text-align:right;">12.687,50 kr.<br/>410,00 kr.</td><td style="text-align:right;">15-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr><tr aid="25023" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25023&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=25023&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2A, 2. TH.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">98</td><td style="text-align:right;">13.965,00 kr.<br/>730,00 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr><tr aid="25022" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25022&amp;s=2"><img src="/FBNImages/2adc702a-c820-456e-a078-d9316490d86a_90x60.JPG"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=25022&amp;s=2" style="color:black;" title="Ørestad - Horisonten"><b>C.F. Møllers Allé  22, 5. TV</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">98</td><td style="text-align:right;">14.291,67 kr.<br/>910,00 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr><tr aid="25008" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=25008&amp;s=2"><img src="/FBNImages/7caefb12-a499-43f1-8b38-0f88a740c251_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=25008&amp;s=2" style="color:black;" title="Provianthuset / Sandkaj"><b>Bordeauxgade  6, 2. tv.</b><br/>2150 Nordhavn</a></td><td style="text-align:center;">3</td><td style="text-align:center;">91</td><td style="text-align:right;">14.408,00 kr.<br/>1.000,00 kr.</td><td style="text-align:right;">01-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Pensamlogo" src="/FBNImages/81cf9311-8d18-42bd-912f-5e56ba705b45.gif" title="Pensamlogo"/></td>
+</tr><tr aid="24847" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24847&amp;s=2"><img src="/FBNImages/8d215662-3510-4db7-81f0-de8b8a126416_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=24847&amp;s=2" style="color:black;" title="Hekla Husene"><b>Poul Hartlings Gade  9, 2. TH.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">95</td><td style="text-align:right;">14.706,59 kr.<br/>1.230,00 kr.</td><td style="text-align:right;">01-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Lærernes Pension" src="/FBNImages/488b7445-35fe-4400-a6b5-b06619eb71cb.png" title="Lærernes Pension"/></td>
+</tr><tr aid="24827" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24827&amp;s=2"><img src="/FBNImages/ImageMissing_90x60.gif"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=24827&amp;s=2" style="color:black;" title="H.C.Andersens Boulevard 41-43"><b>H.C. Andersens Boulevard 41, 3. th</b><br/>1553 København V</a></td><td style="text-align:center;">2</td><td style="text-align:center;">125</td><td style="text-align:right;">14.000,00 kr.<br/>2.000,00 kr.</td><td style="text-align:right;">01-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;" title="Advokatpartnerselskabet Jordan|Løgstrup">Advokatpartne...</td>
+</tr><tr aid="24696" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24696&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=24696&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2D, 5. TH.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">96</td><td style="text-align:right;">14.000,00 kr.<br/>800,00 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr><tr aid="24672" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24672&amp;s=2"><img src="/FBNImages/o_1ba9oq3k5q4c14mu1k2o1ebm1psqa_90x60.JPG"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=24672&amp;s=2" style="color:black;" title="H.C. Andersens Boulevard 47"><b>H.C. Andersens Boulevard 47, 5. th</b><br/>1553 København V</a></td><td style="text-align:center;">3</td><td style="text-align:center;">160</td><td style="text-align:right;">15.000,00 kr.<br/>1.602,35 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;" title="Advokatpartnerselskabet Jordan|Løgstrup">Advokatpartne...</td>
+</tr><tr aid="24671" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24671&amp;s=2"><img src="/FBNImages/o_1bf6h3hbpdt117n7dh61u88qvi_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=24671&amp;s=2" style="color:black;" title="H.C. Andersens Boulevard 47"><b>H.C. Andersens Boulevard 47, 5. mf</b><br/>1553 København V</a></td><td style="text-align:center;">3</td><td style="text-align:center;">141</td><td style="text-align:right;">13.500,00 kr.<br/>1.252,35 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;" title="Advokatpartnerselskabet Jordan|Løgstrup">Advokatpartne...</td>
+</tr><tr aid="24588" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24588&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=24588&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2B, 1. TV</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">100</td><td style="text-align:right;">13.958,33 kr.<br/>790,00 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr><tr aid="24587" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24587&amp;s=2"><img src="/FBNImages/2adc702a-c820-456e-a078-d9316490d86a_90x60.JPG"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=24587&amp;s=2" style="color:black;" title="Ørestad - Horisonten"><b>C.F. Møllers Allé  22, st. TH</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">104</td><td style="text-align:right;">14.733,33 kr.<br/>998,00 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr><tr aid="24363" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24363&amp;s=2"><img src="/FBNImages/22e83949-2cc9-476a-9b40-ad340867592b_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=24363&amp;s=2" style="color:black;" title="Amager Strandpark Ask"><b>Krimsvej  11B, st. th.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">109</td><td style="text-align:right;">14.228,50 kr.<br/>1.200,00 kr.</td><td style="text-align:right;">01-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Lærernes Pension" src="/FBNImages/488b7445-35fe-4400-a6b5-b06619eb71cb.png" title="Lærernes Pension"/></td>
+</tr><tr aid="24359" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=24359&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=24359&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2A, 6. TH.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">96</td><td style="text-align:right;">14.240,00 kr.<br/>300,00 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr><tr aid="23884" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=23884&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=23884&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  4F, 2. TV.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">97</td><td style="text-align:right;">14.065,00 kr.<br/>1.010,00 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr><tr aid="23875" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=23875&amp;s=2"><img src="/FBNImages/o_1b7pp66gf1a1b1ratnoq1ucvhblr_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=23875&amp;s=2" style="color:black;" title="Brygge Blomsten"><b>Artillerivej  160, 12. 1</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">100</td><td style="text-align:right;">14.622,60 kr.<br/>1.085,00 kr.</td><td style="text-align:right;">01-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="PKA_Logo_2014" src="/FBNImages/23faf18d-8f50-4b55-97e1-060dac0f8372.png" title="PKA_Logo_2014"/></td>
+</tr><tr aid="23710" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=23710&amp;s=2"><img src="/FBNImages/o_1b7ppp95pgvciqi1af5drscoro_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=23710&amp;s=2" style="color:black;" title="Brygge Blomsten"><b>Artillerivej  160, 10. 1</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">100</td><td style="text-align:right;">14.622,60 kr.<br/>1.085,00 kr.</td><td style="text-align:right;">01-07-2017</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="PKA_Logo_2014" src="/FBNImages/23faf18d-8f50-4b55-97e1-060dac0f8372.png" title="PKA_Logo_2014"/></td>
+</tr><tr aid="23389" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=23389&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=23389&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  4F, 4. TV.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">97</td><td style="text-align:right;">14.145,83 kr.<br/>920,00 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr><tr aid="22504" class="rowstyle" valign="top">
+<td class="imgCol"><a class="advertLink" href="/bolig.aspx?aid=22504&amp;s=2"><img src="/FBNImages/24b58aaa-6e5a-4b6d-be8c-4d5cfdb0799c_90x60.jpg"/></a></td><td><a class="advertLink" href="/bolig.aspx?aid=22504&amp;s=2" style="color:black;" title="Horisonten II"><b>C. F. Møllers Alle  2A, 1. TV.</b><br/>2300 København S</a></td><td style="text-align:center;">3</td><td style="text-align:center;">101</td><td style="text-align:right;">14.168,26 kr.<br/>780,00 kr.</td><td style="text-align:right;">Ledig nu</td><td style="height:52px;width:100px;text-align:center;vertical-align:middle;padding-left:0px;padding-right:0px;"><img alt="Deas logo" src="/FBNImages/f660be9a-2a7a-4ac7-a313-40a1da363207.png" title="Deas logo"/></td>
+</tr>
+</table>
+</div>
+</div>
+<div id="ctl00_placeholdercontent_0_FbnTable1_panel_TabelFooter">
+<div id="gridPagesBottom"></div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        if ($("#gridPagesBottom").length > 0) {
+            $("#gridPagesBottom").html($("#gridPagesTop").html());
+            /*
+            var indholdsomraade = $(".indholdsomraade").height();
+
+            if ($("#colCenter").height() < indholdsomraade) {
+                $("#colCenter").height(indholdsomraade);
+            }
+            else {
+                $("#colCenter").height(351);
+            }*/
+        }
+    });
+
+</script>
+</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function () {
+		setTimeout('window.scrollTo(0, 0)', 1);
+
+		$('.advertLink').click(function () {
+			setBaseCookie(SEARCHRESULTADVERT, '/ledigeboliger/liste.aspx?sa=83328&where=1000-2400,%202800,%202820,%202840,%202900,%202920&m2min=70&rentmax=15000&roomsmin=2&showrented=1&showyouth=0&showOpenDay=0&showlimitedperiod=0&showunlimitedperiod=1&page=1&pagesize=100&top=' + $(window).scrollTop());
+		});
+    });
+
+    function clearWhereTextfieldOnSidebarPage() {
+        clearWhereTextbox();
+    }
+</script>
+</div>
+<br style="clear: both;"/>
+</div>
+<div class="sidefod" id="footerArea">
+<div class="reklame">
+<!-- -->
+</div>
+</div>
+<script type="text/javascript">
+
+        $(document).ready(function() {
+            setColHeight();
+        });            
+    </script>
+<script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+<script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-12963856-1");
+            pageTracker._setDomainName(".findbolig.nu");
+            pageTracker._trackPageview();
+        } catch (err) { }
+    </script>
+</form>
+</body>
+</html>
+>
