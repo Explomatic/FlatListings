@@ -17,7 +17,14 @@ def get_flat_information(soup):
 
     flats={}
     base_url = "http://findbolig.nu"
-    list_of_flat_objs = []
+    all_flat_ids = extract_all_flat_ids(tags)
+    all_urls = extract_all_urls(tags)
+    all_titles = extract_all_titles(tags)
+    all_addresses = extract_all_addresses(tags)
+    all_rooms = extract_all_rooms(tags)
+    all_sizes = extract_all_sizes(tags)
+    all_rents, all_utilities = extract_all_rent_and_utilities(tags)
+    all_dates = extract_all_availability_dates(tags)
     counter = 0
     for tag in tags:
         if "advertLink" in str(tag) and not tag.img:
@@ -44,8 +51,9 @@ def get_flat_information(soup):
 
     return flats
 
-def extract_address(tag):
-    match = re.search(r"<b>([\w\s,.-]+?)<\/b><br\/>([\w\s,.-]+?)<\/a><\/td>", str(tag))
+
+def extract_all_addresses(tags):
+    match = re.search(r"<b>([\w\s,.-]+?)<\/b><br\/>([\w\s,.-]+?)<\/a><\/td>", str(s))
     address = ""
 
     if match:
@@ -53,8 +61,9 @@ def extract_address(tag):
 
     return address
 
-def extract_rooms(tag):
-    match = re.search(r'>([0-9])<\/td>', str(tag))
+
+def extract_all_rooms(tags):
+    match = re.search(r'>([0-9])<\/td>', str(tags))
     number_of_rooms = ""
 
     if match:
@@ -62,8 +71,9 @@ def extract_rooms(tag):
 
     return number_of_rooms
 
-def extract_size(tag):
-    match = re.search(r'>([0-9]{2,3})<\/td>', str(tag))
+
+def extract_all_sizes(tags):
+    match = re.search(r'>([0-9]{2,3})<\/td>', str(tags))
     size = ""
 
     if match:
@@ -71,8 +81,9 @@ def extract_size(tag):
 
     return size
 
-def extract_rent_and_utility(tag):
-    match = re.findall(r'>([\w.,]+\skr\.)', str(tag))
+
+def extract_all_rent_and_utilities(tags):
+    match = re.findall(r'>([\w.,]+\skr\.)', str(tags))
     rent = ""
     utility = ""
 
@@ -82,8 +93,9 @@ def extract_rent_and_utility(tag):
 
     return (rent, utility)
 
-def extract_availability_date(tag):
-    match = re.search(r'>([\w-]+?)<\/td>', str(tag))
+
+def extract_all_availability_dates(tags):
+    match = re.search(r'>([\w-]+?)<\/td>', str(tags))
     date = ""
 
     if match:
@@ -91,14 +103,36 @@ def extract_availability_date(tag):
 
     return date
 
-def extract_flat_id(url):
-    match = re.search(r'aid=([\d]+?)\&amp', url)
+
+def extract_all_flat_ids(tags):
+    match = re.search(r'aid=([\d]+?)\&amp', tags)
     flat_id = ""
 
     if match:
         flat_id = float(match.group(1))
 
     return flat_id
+
+
+def extract_all_urls(tags):
+    match = re.search(r'aid=([\d]+?)\&amp', tags)
+    urls = ""
+
+    if match:
+        urls = float(match.group(1))
+
+    return urls
+
+
+def extract_all_titles(tags):
+    match = re.search(r'aid=([\d]+?)\&amp', tags)
+    titles = ""
+
+    if match:
+        titles = float(match.group(1))
+
+    return titles
+
 
 def check_for_new_flats(found_flats):
     new_flats = {}
