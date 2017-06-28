@@ -56,7 +56,7 @@ def extract_info(tags, inputstr):
 
         if matches:
             for match in matches:
-                info += [float(match)]
+                info += [int(match)]
 
     elif inputstr == 'urls':
         matches = re.findall(r'href=\"([\w.\?=\/]+?)\&amp;s=2\"\s', str(tags))
@@ -116,10 +116,12 @@ def check_for_new_flats(found_flats):
     new_flats = {}
     filename = 'known_flats.txt'
 
+    #pdb.set_trace()
     if os.path.isfile(filename):
         with io.open(filename, 'r', encoding="utf-8") as f:
             content = f.read()
-            known_flats=jsonpickle.decode(content)
+            known_flats = jsonpickle.decode(content)
+            known_flats = {int(k): v for k, v in known_flats.items()}
             first_time = False
     else:
         f = io.open('known_flats.txt', 'w', encoding="utf-8")
@@ -160,15 +162,16 @@ def send_mail(mail_content):
         f.write(mail_content)
         f.close()
 
-    print("Now we would normally send a mail!")
-    return 0
+    #print("Now we would normally send a mail!")
+    #return 0
 
     SCOPES = 'https://www.googleapis.com/auth/gmail.send'
     credentials = qs.get_credentials(SCOPES)
 
-    mail_content = "This is a test"
+    #mail_content = "This is a test"
 
-    msg = qs.create_message("morten.madsen.92@gmail.com", "morten.madsen.92@gmail.com", "Test mail", mail_content)
+    msg = qs.create_message("morten.madsen.92@gmail.com", "morten.madsen.92@gmail.com",
+                            "New flats found!", mail_content)
 
     # Send the message via our own SMTP server, but don't include the
     # envelope header.
@@ -207,6 +210,8 @@ def main():
     if new_flats:
         mail_content = generate_mail_content(new_flats)
         send_mail(mail_content)
+    else:
+        print("No new flats found!")
 
 if __name__ == "__main__":
     main()
