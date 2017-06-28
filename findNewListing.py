@@ -17,14 +17,14 @@ def get_flat_information(soup):
 
     flats={}
     base_url = "http://findbolig.nu"
-    all_flat_ids = extract_all_flat_ids(tags)
-    all_urls = extract_all_urls(tags)
-    all_titles = extract_all_titles(tags)
-    all_addresses = extract_all_addresses(tags)
-    all_rooms = extract_all_rooms(tags)
-    all_sizes = extract_all_sizes(tags)
-    all_rents, all_utilities = extract_all_rent_and_utilities(tags)
-    all_dates = extract_all_availability_dates(tags)
+    all_flat_ids = extract_info(tags, 'flat ids')
+    all_urls =  extract_info(tags, 'urls')
+    all_titles =  extract_info(tags, 'titles')
+    all_addresses =  extract_info(tags, 'addresses')
+    all_rooms =  extract_info(tags, 'number of rooms')
+    all_sizes =  extract_info(tags, 'sizes')
+    all_rents, all_utilities =  extract_info(tags, 'rent and utilities')
+    all_dates =  extract_info(tags, 'availability dates')
     counter = 0
     for tag in tags:
         if "advertLink" in str(tag) and not tag.img:
@@ -52,15 +52,34 @@ def get_flat_information(soup):
     return flats
 
 
-def extract_all_addresses(tags):
-    match = re.search(r"<b>([\w\s,.-]+?)<\/b><br\/>([\w\s,.-]+?)<\/a><\/td>", str(s))
-    address = ""
+def extract_info(tags, inputstr):
+    info = []
 
-    if match:
-        address = str(match.group(1)) + ", " + str(match.group(2))
+    if inputstr == 'flat ids':
+        matches = re.search(r"<b>([\w\s,.-]+?)<\/b><br\/>([\w\s,.-]+?)<\/a><\/td>", str(s))
 
-    return address
 
+        if matches:
+            for match in matches:
+                info += [str(match.group(1)) + ", " + str(match.group(2))]
+
+        return info
+    elif inputstr == 'urls':
+        pass
+    elif inputstr == 'titles':
+        pass
+    elif inputstr == 'addresses':
+        pass
+    elif inputstr == 'number of rooms':
+        pass
+    elif inputstr == 'sizes':
+        pass
+    elif inputstr == 'rent and utilities':
+        pass
+    elif inputstr == 'availability dates':
+        pass
+    elif inputstr == '':
+        pass
 
 def extract_all_rooms(tags):
     match = re.search(r'>([0-9])<\/td>', str(tags))
