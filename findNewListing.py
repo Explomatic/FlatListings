@@ -128,14 +128,15 @@ def check_for_new_flats(found_flats):
         first_time = True
 
     if first_time:
-        jsonObj = jsonpickle.encode(found_flats)
-        f.write(jsonObj)
-        f.close()
         new_flats = found_flats
     else:
         for key, value in found_flats.items():
             if key not in known_flats.keys():
                 new_flats[key] = value
+
+    jsonObj = jsonpickle.encode(found_flats)
+    f.write(jsonObj)
+    f.close()
 
     return new_flats
 
