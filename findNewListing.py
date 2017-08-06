@@ -25,7 +25,9 @@ def get_flat_information(soup):
     all_sizes =  extract_info(tags, 'sizes')
     all_rents, all_utilities =  extract_info(tags, 'rent and utilities')
     all_dates =  extract_info(tags, 'availability dates')
+
     counter = 0
+
     for tag in tags:
         if "advertLink" in str(tag) and not tag.img:
             tmpFlat = flat()
@@ -56,7 +58,7 @@ def extract_info(tags, inputstr):
     info = []
 
     if inputstr == 'flat ids':
-        matches = re.search(r"<b>([\w\s,.-]+?)<\/b><br\/>([\w\s,.-]+?)<\/a><\/td>", str(s))
+        matches = re.findall(r"<b>([\w\s,.-]+?)<\/b><br\/>([\w\s,.-]+?)<\/a><\/td>", str(s))
 
 
         if matches:
