@@ -25,33 +25,7 @@ def get_flat_information(soup):
     all_sizes =  extract_info(tags, 'sizes')
     all_rents_and_utilities =  extract_info(tags, 'rent and utilities')
     all_dates =  extract_info(tags, 'availability dates')
-<<<<<<< HEAD
 
-    counter = 0
-
-    for tag in tags:
-        if "advertLink" in str(tag) and not tag.img:
-            tmpFlat = flat()
-            counter = 1
-            tmpFlat.title = str(tag.a['title'])
-            tmpFlat.address = extract_address(tag)
-            tmpFlat.url = base_url + tag.a['href']
-            tmpFlat.flat_id = extract_flat_id(tmpFlat.url)
-            continue
-
-        if counter == 1:
-            tmpFlat.number_of_rooms = extract_rooms(tag)
-            counter += 1
-        elif counter == 2:
-            tmpFlat.size = extract_size(tag)
-            counter += 1
-        elif counter == 3:
-            tmpFlat.rent, tmpFlat.utility = extract_rent_and_utility(tag)
-            counter += 1
-        elif counter == 4:
-            tmpFlat.date_available = extract_availability_date(tag)
-            flats[tmpFlat.flat_id] = tmpFlat
-=======
     num_of_flats = len(all_flat_ids)
 #   len_all = [len(all_flat_ids), len(all_urls), len(all_titles), len(all_addresses), len(all_rooms),
 #               len(all_sizes), len(all_rents_and_utilities), len(all_dates)]
@@ -71,7 +45,6 @@ def get_flat_information(soup):
         obj.utility = all_rents_and_utilities[idx][1]
         obj.availability_date = all_dates[idx]
         flats[obj.flat_id] = obj
->>>>>>> b5fee32eeb0ca4df08bb2aa8a1671a30c0213959
 
     return flats
 
@@ -80,14 +53,9 @@ def extract_info(tags, inputstr):
     info = []
 
     if inputstr == 'flat ids':
-<<<<<<< HEAD
-        matches = re.findall(r"<b>([\w\s,.-]+?)<\/b><br\/>([\w\s,.-]+?)<\/a><\/td>", str(s))
-
-=======
         matches = re.findall(r'aid=([\d]+?)\&amp;s=2\"\s', str(tags))
->>>>>>> b5fee32eeb0ca4df08bb2aa8a1671a30c0213959
 
-        if matches:
+	    if matches:
             for match in matches:
                 info += [int(match)]
 
